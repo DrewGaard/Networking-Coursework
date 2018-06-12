@@ -1,0 +1,108 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+
+int** createArray(int rows, int cols);
+void fillArray(int** myArray, int rows, int cols);
+void printArray(int** myArray, int rows, int cols);
+void deleteArray(int** myArray, int rows, int cols);
+
+
+int main()
+{
+   const int ROWS = 5;
+   const int COLS = 5;
+   int** myArray;
+
+   myArray = createArray(ROWS, COLS);
+   fillArray(myArray, ROWS, COLS);
+   printArray(myArray, ROWS, COLS);
+   deleteArray(myArray, ROWS, COLS);
+
+   return EXIT_SUCCESS;
+
+
+    printf("Hello world!\n");
+    return 0;
+}
+
+int** createArray(int rows, int cols) {
+  int **myArray;
+
+  // Allocate a 1xROWS array to hold pointers to more arrays
+  myArray = calloc(rows, sizeof(int *));
+  if (myArray == NULL) {
+    printf("FATAL ERROR: out of memory: %s\n", strerror(errno));
+    exit(EXIT_FAILURE);
+  }
+
+  // Allocate each row in that column
+  for (int i = 0; i < rows; i++) {
+    myArray[i] = calloc(cols, sizeof(int));
+    if (myArray[i] == NULL) {
+      printf("FATAL ERROR: out of memory: %s\n", strerror(errno));
+      exit(EXIT_FAILURE);
+    }
+  }
+
+  return myArray;
+}
+
+void fillArray(int** myArray, int rows, int cols) {
+  int count = 1;
+  char spacer = '-';
+
+  for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < cols; j++) {
+      myArray[i][j] = spacer;
+      count++;
+    }
+  }
+
+  return;
+}
+
+//This is where I print the board
+
+void printArray(int** myArray, int rows, int cols) {
+char chCounter = 'A';
+printf("    ");
+for(int k = 0; k < cols; k++)
+{
+    printf("%c", chCounter);
+    chCounter++;
+    printf(" ");
+}
+printf("\n");
+
+printf("   ");
+printf("+");
+for(int l = 0; l < cols; l++)
+{
+    printf("--");
+}
+
+printf("\n");
+
+int counter = 1;
+  for (int i = 0; i < rows; i++) {
+    printf("%i", counter);
+    counter++;
+    printf("  |");
+    for (int j = 0; j < cols; j++) {
+      printf("%c ", myArray[i][j]);
+    }
+    printf("\n");
+  }
+}
+
+void deleteArray(int** myArray, int rows, int cols) {
+  for (int i = 0; i < rows; i++) {
+    free(myArray[i]);
+  }
+  free(myArray);
+
+  return;
+}
+

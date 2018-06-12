@@ -1,0 +1,10 @@
+Script started on Wed 23 Mar 2016 09:17:59 PM PDT
+This is nc from the netcat-openbsd package. An alternative nc is available
+in the netcat-traditional package.
+usage: nc [-46bCDdhjklnrStUuvZz] [-I length] [-i interval] [-O length]
+	  [-P proxy_username] [-p source_port] [-q seconds] [-s source]
+	  [-T toskeyword] [-V rtable] [-w timeout] [-X proxy_protocol]
+	  [-x proxy_address[:port]] [destination] [port]
+bash: line 1: 80: command not found
+
+Script done on Wed 23 Mar 2016 09:17:59 PM PDT

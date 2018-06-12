@@ -1,0 +1,1103 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out' (creator: callgrind-3.10.1)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 1545544551
+Trigger: Program termination
+Profiled target:  ./canny_detector IMAGES/Lenna_org_1024.pgm 11 1.1 (PID 3443, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       100
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+            Ir 
+--------------------------------------------------------------------------------
+19,304,199,234  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+            Ir  file:function
+--------------------------------------------------------------------------------
+18,041,352,900  main.h:convolve [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+   342,518,925  /build/buildd/eglibc-2.19/stdlib/msort.c:msort_with_tmp.part.0'2 [/lib/x86_64-linux-gnu/libc-2.19.so]
+   230,934,660  main.h:comp [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+   172,639,302  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_atan2.c:__ieee754_atan2_avx [/lib/x86_64-linux-gnu/libm-2.19.so]
+   110,592,651  main.h:nonmaximal_suppression [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    89,129,130  image_template.h:write_image_template [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    69,215,254  main.h:magnitude [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    55,429,516  main.h:double_threshold [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    47,799,788  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S:__GI_memcpy [/lib/x86_64-linux-gnu/libc-2.19.so]
+    44,049,430  main.h:angle [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    38,774,491  main.h:edge_linking [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    23,068,718  image_template.h:read_image_template [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+    16,252,799  /build/buildd/eglibc-2.19/stdlib/msort.c:msort_with_tmp.part.0 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     9,437,184  /build/buildd/eglibc-2.19/math/w_atan2.c:atan2 [/lib/x86_64-linux-gnu/libm-2.19.so]
+     5,245,434  /build/buildd/eglibc-2.19/math/../sysdeps/generic/math_private.h:__ieee754_atan2_avx
+     4,194,304  /build/buildd/eglibc-2.19/math/w_sqrt.c:sqrt [/lib/x86_64-linux-gnu/libm-2.19.so]
+     2,162,796  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy-sse2-unaligned.S:__memcpy_sse2_unaligned [/lib/x86_64-linux-gnu/libc-2.19.so]
+     1,048,576  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/math_private.h:sqrt
+        56,050  /build/buildd/eglibc-2.19/elf/dl-addr.c:_dl_addr [/lib/x86_64-linux-gnu/libc-2.19.so]
+        40,638  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_pow.c:__ieee754_pow_sse2 [/lib/x86_64-linux-gnu/libm-2.19.so]
+        35,284  /build/buildd/eglibc-2.19/elf/dl-lookup.c:do_lookup_x [/lib/x86_64-linux-gnu/ld-2.19.so]
+        23,048  /build/buildd/eglibc-2.19/elf/dl-lookup.c:_dl_lookup_symbol_x [/lib/x86_64-linux-gnu/ld-2.19.so]
+        21,360  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_exp.c:__exp1 [/lib/x86_64-linux-gnu/libm-2.19.so]
+        19,591  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_overflow@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+        17,383  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+        12,994  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:strcmp'2 [/lib/x86_64-linux-gnu/ld-2.19.so]
+         9,369  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_xsputn [/lib/x86_64-linux-gnu/libc-2.19.so]
+         8,924  /build/buildd/eglibc-2.19/elf/do-rel.h:_dl_relocate_object
+         7,182  main.h:gaussianX_mask [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+         7,178  main.h:gaussianY_mask [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+         5,928  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_xsputn@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+         5,774  /build/buildd/eglibc-2.19/elf/dl-lookup.c:check_match.9458 [/lib/x86_64-linux-gnu/ld-2.19.so]
+         4,356  /build/buildd/eglibc-2.19/math/w_pow.c:pow [/lib/x86_64-linux-gnu/libm-2.19.so]
+         4,338  /build/buildd/eglibc-2.19/stdio-common/vfprintf.c:vfprintf [/lib/x86_64-linux-gnu/libc-2.19.so]
+         4,074  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S:__GI_mempcpy [/lib/x86_64-linux-gnu/libc-2.19.so]
+         4,040  /build/buildd/eglibc-2.19/malloc/malloc.c:_int_malloc [/lib/x86_64-linux-gnu/libc-2.19.so]
+         3,297  /build/buildd/eglibc-2.19/elf/dl-misc.c:_dl_name_match_p [/lib/x86_64-linux-gnu/ld-2.19.so]
+         2,877  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:strcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+         2,640  /build/buildd/eglibc-2.19/math/../sysdeps/i386/fpu/fenv_private.h:__ieee754_pow_sse2
+         2,336  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rtld-memset.S:memset [/lib/x86_64-linux-gnu/ld-2.19.so]
+         2,042  /build/buildd/eglibc-2.19/elf/../elf/dl-runtime.c:_dl_fixup [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,828  /build/buildd/eglibc-2.19/stdio-common/printf_fp.c:__printf_fp [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,748  /build/buildd/eglibc-2.19/elf/dl-version.c:_dl_check_map_versions [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,710  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_map_object_from_fd [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,646  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_cache_libcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,544  /build/buildd/eglibc-2.19/elf/dl-deps.c:_dl_map_object_deps [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,454  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_do_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,448  /build/buildd/eglibc-2.19/malloc/malloc.c:_int_free [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,339  /build/buildd/eglibc-2.19/string/../string/memcmp.c:bcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,188  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,105  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strchr.S:strchrnul [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,067  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../rtld-strlen.S:strlen [/lib/x86_64-linux-gnu/ld-2.19.so]
+         1,045  /build/buildd/eglibc-2.19/stdio-common/vfscanf.c:_IO_vfscanf [/lib/x86_64-linux-gnu/libc-2.19.so]
+         1,014  /build/buildd/eglibc-2.19/elf/dl-minimal.c:strsep [/lib/x86_64-linux-gnu/ld-2.19.so]
+           986  /build/buildd/eglibc-2.19/elf/rtld.c:dl_main [/lib/x86_64-linux-gnu/ld-2.19.so]
+           906  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc [/lib/x86_64-linux-gnu/libc-2.19.so]
+           886  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:_dl_map_object_from_fd
+           860  /build/buildd/eglibc-2.19/elf/dl-minimal.c:__libc_memalign [/lib/x86_64-linux-gnu/ld-2.19.so]
+           851  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_map_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+           793  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc_consolidate [/lib/x86_64-linux-gnu/libc-2.19.so]
+           789  /build/buildd/eglibc-2.19/elf/dl-object.c:_dl_new_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+           784  /build/buildd/eglibc-2.19/elf/dl-version.c:match_symbol [/lib/x86_64-linux-gnu/ld-2.19.so]
+           726  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/math_private.h:pow
+           682  /build/buildd/eglibc-2.19/stdlib/../stdlib/strtol_l.c:____strtol_l_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+           675  /build/buildd/eglibc-2.19/libio/genops.c:_IO_un_link [/lib/x86_64-linux-gnu/libc-2.19.so]
+           654  /build/buildd/eglibc-2.19/elf/dl-reloc.c:_dl_relocate_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+           651  /build/buildd/eglibc-2.19/libio/genops.c:_IO_link_in [/lib/x86_64-linux-gnu/libc-2.19.so]
+           650  /build/buildd/eglibc-2.19/stdio-common/printf_fp.c:hack_digit.13629 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           645  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_load_cache_lookup [/lib/x86_64-linux-gnu/ld-2.19.so]
+           617  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S:memcpy [/lib/x86_64-linux-gnu/ld-2.19.so]
+           593  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_fopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           580  /build/buildd/eglibc-2.19/stdio-common/_itoa.c:_itoa_word [/lib/x86_64-linux-gnu/libc-2.19.so]
+           561  /build/buildd/eglibc-2.19/malloc/malloc.c:free [/lib/x86_64-linux-gnu/libc-2.19.so]
+           546  /build/buildd/eglibc-2.19/elf/dl-load.c:open_verify.constprop.6 [/lib/x86_64-linux-gnu/ld-2.19.so]
+           525  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve [/lib/x86_64-linux-gnu/ld-2.19.so]
+           471  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S:mempcpy [/lib/x86_64-linux-gnu/ld-2.19.so]
+           467  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c:_dl_sysdep_start [/lib/x86_64-linux-gnu/ld-2.19.so]
+           453  /build/buildd/eglibc-2.19/malloc/arena.c:ptmalloc_init.part.7 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           453  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:intel_check_word [/lib/x86_64-linux-gnu/libc-2.19.so]
+           445  /build/buildd/eglibc-2.19/elf/dl-load.c:open_path [/lib/x86_64-linux-gnu/ld-2.19.so]
+           441  /build/buildd/eglibc-2.19/stdlib/divrem.c:__mpn_divrem [/lib/x86_64-linux-gnu/libc-2.19.so]
+           437  /build/buildd/eglibc-2.19/libio/iofclose.c:fclose@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           428  /build/buildd/eglibc-2.19/elf/dl-environ.c:_dl_next_ld_env_entry [/lib/x86_64-linux-gnu/ld-2.19.so]
+           427  /build/buildd/eglibc-2.19/libio/genops.c:_IO_setb [/lib/x86_64-linux-gnu/libc-2.19.so]
+           425  main.c:main [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+           381  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_close_it@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           365  /build/buildd/eglibc-2.19/stdio-common/printf.c:printf [/lib/x86_64-linux-gnu/libc-2.19.so]
+           360  /build/buildd/eglibc-2.19/stdlib/strtod_l.c:____strtod_l_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+           350  /build/buildd/eglibc-2.19/string/../bits/stdlib-bsearch.h:intel_check_word
+           341  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_init_paths [/lib/x86_64-linux-gnu/ld-2.19.so]
+           341  /build/buildd/eglibc-2.19/libio/filedoalloc.c:_IO_file_doallocate [/lib/x86_64-linux-gnu/libc-2.19.so]
+           340  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/mul_1.S:__mpn_mul_1 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           334  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_allocate_tls_storage [/lib/x86_64-linux-gnu/ld-2.19.so]
+           318  /build/buildd/eglibc-2.19/elf/dl-fini.c:_dl_fini [/lib/x86_64-linux-gnu/ld-2.19.so]
+           288  /build/buildd/eglibc-2.19/elf/dl-fini.c:_dl_sort_fini [/lib/x86_64-linux-gnu/ld-2.19.so]
+           288  /build/buildd/eglibc-2.19/libio/iogetline.c:_IO_getline_info [/lib/x86_64-linux-gnu/libc-2.19.so]
+           284  /build/buildd/eglibc-2.19/libio/iofopen.c:__fopen_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+           278  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strchr.S:index [/lib/x86_64-linux-gnu/ld-2.19.so]
+           264  /build/buildd/eglibc-2.19/elf/dl-hwcaps.c:_dl_important_hwcaps [/lib/x86_64-linux-gnu/ld-2.19.so]
+           260  /build/buildd/eglibc-2.19/libio/iofwrite.c:fwrite [/lib/x86_64-linux-gnu/libc-2.19.so]
+           255  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strtok.S:strtok [/lib/x86_64-linux-gnu/libc-2.19.so]
+           254  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:_dl_start
+           253  /build/buildd/eglibc-2.19/libio/genops.c:_IO_no_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+           244  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:dl_main
+           225  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_start
+           224  /build/buildd/eglibc-2.19/elf/dl-init.c:call_init.part.0 [/lib/x86_64-linux-gnu/ld-2.19.so]
+           200  /build/buildd/eglibc-2.19/elf/dl-error.c:_dl_catch_error [/lib/x86_64-linux-gnu/ld-2.19.so]
+           198  /build/buildd/eglibc-2.19/string/../string/strstr.c:__GI_strstr [/lib/x86_64-linux-gnu/libc-2.19.so]
+           198  image_template.h:write_image [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+           197  /build/buildd/eglibc-2.19/libio/genops.c:_IO_old_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+           189  /build/buildd/eglibc-2.19/elf/dl-load.c:open_verify [/lib/x86_64-linux-gnu/ld-2.19.so]
+           174  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:mmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+           168  /build/buildd/eglibc-2.19/libio/iofgets.c:fgets [/lib/x86_64-linux-gnu/libc-2.19.so]
+           165  /build/buildd/eglibc-2.19/elf/rtld.c:_dl_start [/lib/x86_64-linux-gnu/ld-2.19.so]
+           165  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__write_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+           161  /build/buildd/eglibc-2.19/elf/dl-load.c:fillin_rpath [/lib/x86_64-linux-gnu/ld-2.19.so]
+           151  /build/buildd/eglibc-2.19/elf/do-rel.h:_dl_start
+           150  /build/buildd/eglibc-2.19/elf/dl-object.c:_dl_add_to_namespace_list [/lib/x86_64-linux-gnu/ld-2.19.so]
+           144  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:init_cacheinfo [/lib/x86_64-linux-gnu/libc-2.19.so]
+           144  /build/buildd/eglibc-2.19/libio/genops.c:_IO_doallocbuf [/lib/x86_64-linux-gnu/libc-2.19.so]
+           136  /build/buildd/eglibc-2.19/stdio-common/printf-parse.h:vfprintf
+           134  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_underflow@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           128  image_template.h:read_image [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+           125  /build/buildd/eglibc-2.19/elf/dl-lookup.c:_dl_setup_hash [/lib/x86_64-linux-gnu/ld-2.19.so]
+           125  /build/buildd/eglibc-2.19/misc/sbrk.c:sbrk [/lib/x86_64-linux-gnu/libc-2.19.so]
+           120  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c:_fxstat [/lib/x86_64-linux-gnu/libc-2.19.so]
+           113  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/setjmp.S:__sigsetjmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+           108  /build/buildd/eglibc-2.19/stdlib/strtod_l.c:str_to_mpn.isra.0 [/lib/x86_64-linux-gnu/libc-2.19.so]
+           105  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_xsgetn [/lib/x86_64-linux-gnu/libc-2.19.so]
+           104  /build/buildd/eglibc-2.19/elf/dl-minimal.c:malloc [/lib/x86_64-linux-gnu/ld-2.19.so]
+           102  /build/buildd/eglibc-2.19/libio/genops.c:__overflow [/lib/x86_64-linux-gnu/libc-2.19.so]
+           101  /build/buildd/eglibc-2.19/libio/genops.c:_IO_cleanup [/lib/x86_64-linux-gnu/libc-2.19.so]
+            98  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_finish [/lib/x86_64-linux-gnu/libc-2.19.so]
+            98  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:handle_intel [/lib/x86_64-linux-gnu/libc-2.19.so]
+            96  /build/buildd/eglibc-2.19/elf/dl-init.c:_dl_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+            94  /build/buildd/eglibc-2.19/libio/genops.c:_IO_flush_all_lockp [/lib/x86_64-linux-gnu/libc-2.19.so]
+            93  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c:__init_cpu_features [/lib/x86_64-linux-gnu/libc-2.19.so]
+            92  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memchr.S:memchr [/lib/x86_64-linux-gnu/libc-2.19.so]
+            92  /build/buildd/eglibc-2.19/stdlib/cxa_finalize.c:__cxa_finalize [/lib/x86_64-linux-gnu/libc-2.19.so]
+            91  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_init@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            91  /build/buildd/eglibc-2.19/stdlib/msort.c:qsort_r [/lib/x86_64-linux-gnu/libc-2.19.so]
+            90  /build/buildd/eglibc-2.19/elf/dl-minimal.c:calloc [/lib/x86_64-linux-gnu/ld-2.19.so]
+            89  /build/buildd/eglibc-2.19/elf/dl-version.c:_dl_check_all_versions [/lib/x86_64-linux-gnu/ld-2.19.so]
+            88  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_discover_osversion [/lib/x86_64-linux-gnu/ld-2.19.so]
+            86  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_allocate_tls_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+            85  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:munmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+            85  /build/buildd/eglibc-2.19/stdio-common/fprintf.c:fprintf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            77  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:open [/lib/x86_64-linux-gnu/libc-2.19.so]
+            77  /build/buildd/eglibc-2.19/elf/rtld.c:init_tls [/lib/x86_64-linux-gnu/ld-2.19.so]
+            75  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/lshift.S:__mpn_lshift [/lib/x86_64-linux-gnu/libc-2.19.so]
+            73  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_determine_tlsoffset [/lib/x86_64-linux-gnu/ld-2.19.so]
+            72  /build/buildd/eglibc-2.19/libio/libioP.h:fclose@@GLIBC_2.2.5
+            70  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c:__get_cpu_features [/lib/x86_64-linux-gnu/libc-2.19.so]
+            68  /build/buildd/eglibc-2.19/elf/dl-deps.c:openaux [/lib/x86_64-linux-gnu/ld-2.19.so]
+            66  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:write [/lib/x86_64-linux-gnu/libc-2.19.so]
+            63  /build/buildd/eglibc-2.19/libio/genops.c:_IO_unsave_markers [/lib/x86_64-linux-gnu/libc-2.19.so]
+            60  /build/buildd/eglibc-2.19/csu/libc-start.c:(below main) [/lib/x86_64-linux-gnu/libc-2.19.so]
+            60  /build/buildd/eglibc-2.19/elf/dl-load.c:expand_dynamic_string_token [/lib/x86_64-linux-gnu/ld-2.19.so]
+            60  /build/buildd/eglibc-2.19/libio/genops.c:_IO_switch_to_get_mode [/lib/x86_64-linux-gnu/libc-2.19.so]
+            58  /build/buildd/eglibc-2.19/malloc/malloc.c:systrim.isra.1 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            56  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_finish@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            55  /build/buildd/eglibc-2.19/libio/libioP.h:fwrite
+            55  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/getsysstats.c:phys_pages_info [/lib/x86_64-linux-gnu/libc-2.19.so]
+            54  /build/buildd/eglibc-2.19/stdlib/exit.c:__run_exit_handlers [/lib/x86_64-linux-gnu/libc-2.19.so]
+            54  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strrchr.S:rindex [/lib/x86_64-linux-gnu/libc-2.19.so]
+            52  /build/buildd/eglibc-2.19/libio/genops.c:__uflow [/lib/x86_64-linux-gnu/libc-2.19.so]
+            50  /build/buildd/eglibc-2.19/stdlib/strtod_l.c:round_and_return [/lib/x86_64-linux-gnu/libc-2.19.so]
+            49  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c:_xstat [/lib/x86_64-linux-gnu/ld-2.19.so]
+            49  /build/buildd/eglibc-2.19/elf/dl-debug.c:_dl_debug_initialize [/lib/x86_64-linux-gnu/ld-2.19.so]
+            48  /build/buildd/eglibc-2.19/malloc/morecore.c:__default_morecore [/lib/x86_64-linux-gnu/libc-2.19.so]
+            48  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strlen.S:strlen [/lib/x86_64-linux-gnu/libc-2.19.so]
+            44  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h:time
+            44  /build/buildd/eglibc-2.19/csu/../sysdeps/generic/dl-hash.h:_init
+            44  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h:gettimeofday
+            43  /build/buildd/eglibc-2.19/libio/iofread.c:fread [/lib/x86_64-linux-gnu/libc-2.19.so]
+            42  /build/buildd/eglibc-2.19/stdlib/../sysdeps/ieee754/dbl-64/dbl2mpn.c:__mpn_extract_double [/lib/x86_64-linux-gnu/libc-2.19.so]
+            41  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc'2 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            41  /build/buildd/eglibc-2.19/elf/dl-misc.c:_dl_sysdep_read_whole_file [/lib/x86_64-linux-gnu/ld-2.19.so]
+            40  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:mprotect [/lib/x86_64-linux-gnu/ld-2.19.so]
+            39  /build/buildd/eglibc-2.19/libio/libioP.h:fgets
+            39  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/brk.c:brk [/lib/x86_64-linux-gnu/libc-2.19.so]
+            39  /build/buildd/eglibc-2.19/elf/dl-open.c:_dl_find_dso_for_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+            38  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_setbuf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            38  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__new_exitfn [/lib/x86_64-linux-gnu/libc-2.19.so]
+            36  /build/buildd/eglibc-2.19/libio/iofgets_u.c:fgets_unlocked [/lib/x86_64-linux-gnu/libc-2.19.so]
+            36  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:access [/lib/x86_64-linux-gnu/ld-2.19.so]
+            35  /build/buildd/eglibc-2.19/libio/strops.c:_IO_str_init_static_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+            35  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__close_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+            35  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__open_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+            34  ???:__libc_csu_init [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+            34  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/rshift.S:__mpn_rshift [/lib/x86_64-linux-gnu/libc-2.19.so]
+            33  /build/buildd/eglibc-2.19/libio/iovsscanf.c:vsscanf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            32  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_stat [/lib/x86_64-linux-gnu/libc-2.19.so]
+            32  /build/buildd/eglibc-2.19/csu/../csu/init-first.c:_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+            28  /build/buildd/eglibc-2.19/elf/rtld.c:do_preload [/lib/x86_64-linux-gnu/ld-2.19.so]
+            28  /build/buildd/eglibc-2.19/libio/iofopen.c:__fopen_maybe_mmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+            28  /build/buildd/eglibc-2.19/elf/dl-error.c:_dl_receive_error [/lib/x86_64-linux-gnu/ld-2.19.so]
+            28  /build/buildd/eglibc-2.19/libio/genops.c:_IO_sputbackc [/lib/x86_64-linux-gnu/libc-2.19.so]
+            28  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-vdso.c:_dl_vdso_vsym [/lib/x86_64-linux-gnu/libc-2.19.so]
+            27  /build/buildd/eglibc-2.19/csu/../sysdeps/unix/sysv/linux/x86_64/init-first.c:_init
+            26  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/x86_64/sysconf.c:sysconf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            26  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/unregister-atfork.c:__unregister_atfork [/lib/x86_64-linux-gnu/libc-2.19.so]
+            26  /build/buildd/eglibc-2.19/libio/genops.c:__underflow [/lib/x86_64-linux-gnu/libc-2.19.so]
+            26  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/s_isinf.c:isinf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            25  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_fixup
+            24  /build/buildd/eglibc-2.19/misc/init-misc.c:__init_misc [/lib/x86_64-linux-gnu/libc-2.19.so]
+            24  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rawmemchr.S:rawmemchr [/lib/x86_64-linux-gnu/libc-2.19.so]
+            24  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_uflow [/lib/x86_64-linux-gnu/libc-2.19.so]
+            22  /build/buildd/eglibc-2.19/stdlib/cmp.c:__mpn_cmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+            22  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit [/lib/x86_64-linux-gnu/libc-2.19.so]
+            21  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:read [/lib/x86_64-linux-gnu/libc-2.19.so]
+            20  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__read_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+            20  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_add_to_slotinfo [/lib/x86_64-linux-gnu/ld-2.19.so]
+            20  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:close [/lib/x86_64-linux-gnu/ld-2.19.so]
+            20  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_read [/lib/x86_64-linux-gnu/libc-2.19.so]
+            19  ???:0x00000000000012d0 [/lib/x86_64-linux-gnu/ld-2.19.so]
+            18  /build/buildd/eglibc-2.19/posix/../sysdeps/posix/sysconf.c:sysconf
+            18  /build/buildd/eglibc-2.19/stdlib/atoi.c:atoi [/lib/x86_64-linux-gnu/libc-2.19.so]
+            17  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/time.c:time [/lib/x86_64-linux-gnu/libc-2.19.so]
+            17  /build/buildd/eglibc-2.19/stdlib/cxa_thread_atexit_impl.c:__call_tls_dtors [/lib/x86_64-linux-gnu/libc-2.19.so]
+            17  ???:0x0000000000000630 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+            17  ???:0x0000000000005990 [/lib/x86_64-linux-gnu/libm-2.19.so]
+            17  /build/buildd/eglibc-2.19/elf/../misc/sbrk.c:sbrk [/lib/x86_64-linux-gnu/ld-2.19.so]
+            17  /build/buildd/eglibc-2.19/stdio-common/sscanf.c:sscanf [/lib/x86_64-linux-gnu/libc-2.19.so]
+            17  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/gettimeofday.c:gettimeofday [/lib/x86_64-linux-gnu/libc-2.19.so]
+            16  /build/buildd/eglibc-2.19/stdio-common/../sysdeps/generic/get-rounding-mode.h:__printf_fp
+            16  /build/buildd/eglibc-2.19/ctype/ctype-info.c:__ctype_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+            16  ???:0x0000000000000670 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+            16  ???:0x00000000000059d0 [/lib/x86_64-linux-gnu/libm-2.19.so]
+            16  ???:0x0000000000400a90 [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+            15  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_setbuf@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            15  ???:0x0000000000400b50 [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+            15  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_exp.c:__exp_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+            14  /build/buildd/eglibc-2.19/stdlib/../sysdeps/ieee754/dbl-64/mpn2dbl.c:__mpn_construct_double [/lib/x86_64-linux-gnu/libc-2.19.so]
+            14  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/x86_64/../sysconf.c:sysconf
+            14  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/s_isnan.c:isnan [/lib/x86_64-linux-gnu/libc-2.19.so]
+            14  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_close [/lib/x86_64-linux-gnu/libc-2.19.so]
+            14  /build/buildd/eglibc-2.19/libio/iofopen.c:fopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            13  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memmove.c:memcpy@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            13  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_sync@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+            13  /build/buildd/eglibc-2.19/elf/rtld.c:security_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+            12  /build/buildd/eglibc-2.19/stdlib/../stdlib/strtol.c:strtol [/lib/x86_64-linux-gnu/libc-2.19.so]
+            12  /build/buildd/eglibc-2.19/elf/rtld.c:rtld_lock_default_lock_recursive [/lib/x86_64-linux-gnu/ld-2.19.so]
+            12  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/x86_64/brk.c:brk [/lib/x86_64-linux-gnu/ld-2.19.so]
+            12  /build/buildd/eglibc-2.19/elf/rtld.c:rtld_lock_default_unlock_recursive [/lib/x86_64-linux-gnu/ld-2.19.so]
+            12  /build/buildd/eglibc-2.19/elf/rtld.c:_dl_initial_error_catch_tsd [/lib/x86_64-linux-gnu/ld-2.19.so]
+            12  /build/buildd/eglibc-2.19/elf/rtld.c:map_doit [/lib/x86_64-linux-gnu/ld-2.19.so]
+            11  /build/buildd/eglibc-2.19/libio/libioP.h:fread
+            11  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c:cos [/lib/x86_64-linux-gnu/libm-2.19.so]
+            11  /build/buildd/eglibc-2.19/elf/dl-tls.c:__tls_get_addr [/lib/x86_64-linux-gnu/ld-2.19.so]
+            11  /build/buildd/eglibc-2.19/stdlib/../include/rounding-mode.h:round_and_return
+            10  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/getpagesize.c:getpagesize [/lib/x86_64-linux-gnu/libc-2.19.so]
+            10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_log.c:__log_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+            10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_atan2.c:__atan2_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+            10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c:sin [/lib/x86_64-linux-gnu/libm-2.19.so]
+            10  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_unload_cache [/lib/x86_64-linux-gnu/ld-2.19.so]
+            10  /build/buildd/eglibc-2.19/elf/rtld.c:version_check_doit [/lib/x86_64-linux-gnu/ld-2.19.so]
+             9  ???:0x0000000000005920 [/lib/x86_64-linux-gnu/libm-2.19.so]
+             9  /build/buildd/eglibc-2.19/setjmp/sigjmp.c:__sigjmp_save [/lib/x86_64-linux-gnu/libc-2.19.so]
+             9  ???:0x00000000000005c0 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+             9  /build/buildd/eglibc-2.19/stdlib/../sysdeps/generic/get-rounding-mode.h:round_and_return
+             9  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/register-atfork.c:__linkin_atfork [/lib/x86_64-linux-gnu/libc-2.19.so]
+             9  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h:security_init
+             8  ???:0x0000000000400b30 [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+             8  ???:0x0000000000400ac0 [/home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/canny_detector]
+             8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_pow.c:__pow_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+             8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c:__asin_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+             8  /build/buildd/eglibc-2.19/libio/iogetline.c:_IO_getline [/lib/x86_64-linux-gnu/libc-2.19.so]
+             8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c:__acos_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+             8  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_next_tls_modid [/lib/x86_64-linux-gnu/ld-2.19.so]
+             8  /build/buildd/eglibc-2.19/malloc/hooks.c:malloc_hook_ini [/lib/x86_64-linux-gnu/libc-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rint.S:rint [/lib/x86_64-linux-gnu/libm-2.19.so]
+             7  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy.S:memcpy@@GLIBC_2.14 [/lib/x86_64-linux-gnu/libc-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floor.S:floor [/lib/x86_64-linux-gnu/libm-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floorf.S:floorf [/lib/x86_64-linux-gnu/libm-2.19.so]
+             7  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S:strcasecmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceilf.S:ceilf [/lib/x86_64-linux-gnu/libm-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceil.S:ceil [/lib/x86_64-linux-gnu/libm-2.19.so]
+             7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rintf.S:rintf [/lib/x86_64-linux-gnu/libm-2.19.so]
+             6  ???:0x0000000004c2c400 [???]
+             6  ???:0x0000000000400910 [???]
+             6  ???:0x0000000004a25560 [???]
+             6  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S:strncasecmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+             6  /build/buildd/eglibc-2.19/elf/dl-minimal.c:free [/lib/x86_64-linux-gnu/ld-2.19.so]
+             6  /build/buildd/eglibc-2.19/libio/../sysdeps/unix/sysv/linux/sys/sysmacros.h:_IO_file_doallocate
+             5  /build/buildd/eglibc-2.19/stdio-common/../include/rounding-mode.h:__printf_fp
+             5  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/_exit.c:_Exit [/lib/x86_64-linux-gnu/libc-2.19.so]
+             5  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_sysdep_start
+             5  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S:uname [/lib/x86_64-linux-gnu/ld-2.19.so]
+             4  /build/buildd/eglibc-2.19/stdlib/strtod.c:strtod [/lib/x86_64-linux-gnu/libc-2.19.so]
+             4  /build/buildd/eglibc-2.19/stdio-common/../nptl/sysdeps/pthread/allocalim.h:__printf_fp
+             4  /build/buildd/eglibc-2.19/elf/dl-altinit.c:dlinit_alt [/lib/x86_64-linux-gnu/libc-2.19.so]
+             4  /build/buildd/eglibc-2.19/stdlib/exit.c:exit [/lib/x86_64-linux-gnu/libc-2.19.so]
+             3  /build/buildd/eglibc-2.19/malloc/arena.c:malloc_hook_ini
+             3  ???:0x0000000004a257e8 [???]
+             3  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-irel.h:_dl_fixup
+             3  /build/buildd/eglibc-2.19/stdio-common/../nptl/sysdeps/pthread/allocalim.h:_IO_vfscanf
+             3  /build/buildd/eglibc-2.19/stdlib/../stdlib/strtol.c:__strtol_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+             3  ???:0x0000000004c9b1b8 [???]
+             3  /build/buildd/eglibc-2.19/libio/genops.c:_IO_sgetn [/lib/x86_64-linux-gnu/libc-2.19.so]
+             3  ???:0x0000000000402874 [???]
+             2  /build/buildd/eglibc-2.19/elf/dl-debug.c:_dl_debug_state [/lib/x86_64-linux-gnu/ld-2.19.so]
+             2  /build/buildd/eglibc-2.19/stdlib/atof.c:atof [/lib/x86_64-linux-gnu/libc-2.19.so]
+             2  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/bsd-_setjmp.S:_setjmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+             2  /build/buildd/eglibc-2.19/stdlib/msort.c:qsort [/lib/x86_64-linux-gnu/libc-2.19.so]
+             2  /build/buildd/eglibc-2.19/stdlib/../stdlib/gmp.h:round_and_return
+             2  /build/buildd/eglibc-2.19/elf/setup-vdso.h:dl_main
+             2  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_sysdep_start
+             2  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/getsysstats.c:get_phys_pages [/lib/x86_64-linux-gnu/libc-2.19.so]
+             1  ???:sin
+             1  ???:__log_finite
+             1  ???:__atan2_finite
+             1  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c:_dl_sysdep_start_cleanup [/lib/x86_64-linux-gnu/ld-2.19.so]
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: image_template.h
+--------------------------------------------------------------------------------
+        Ir 
+
+-- line 20 ----------------------------------------
+         .  void write_image(char *name, unsigned char *image, int im_width, int im_height);
+         .  void write_image_template(char *name, float *image, int im_width, int im_height);
+         .  
+         .  //Function Definition
+         .  
+         .  /*Call this function alone to read images*/
+         .  
+         .  void read_image_template(char *name, float **image, int *im_width, int *im_height)
+         7  {
+         .          unsigned char *temp_img;
+         .  
+         .  	int i;
+         .  
+         6          read_image(name, &temp_img, im_width, im_height);
+    70,046  => image_template.h:read_image (1x)
+         .  
+        14          *image=(float *)malloc(sizeof(int)*(*im_width)*(*im_height));
+       229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+         .  
+         .  
+ 8,388,617          for(i=0;i<(*im_width)*(*im_height);i++)
+         .          {
+14,680,064                  (*image)[i]=(float)temp_img[i];
+         .          }
+         8          free(temp_img);
+       868  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+        44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+         2  }
+         .  
+         .  void read_image(char *name, unsigned char **image, int *im_width, int *im_height)
+        10  {
+         .  	FILE *fip;
+         .  	char buf[BUFFER];
+         .  	char *parse;
+         .  	int im_size;
+         .  	
+        10  	fip=fopen(name,"rb");
+    60,009  => /build/buildd/eglibc-2.19/libio/iofopen.c:fopen@@GLIBC_2.2.5 (1x)
+       875  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+         2  	if(fip==NULL)
+         .  	{
+         .  		fprintf(stderr,"ERROR:Cannot open %s\n",name);
+         .  		exit(0);
+         .  	}
+        10  	fgets(buf,BUFFER,fip);
+       408  => /build/buildd/eglibc-2.19/libio/iofgets.c:fgets (1x)
+       882  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+         .  	do
+         .  	{
+         6  		fgets(buf,BUFFER,fip);
+       177  => /build/buildd/eglibc-2.19/libio/iofgets.c:fgets (1x)
+         .  	}
+         3  	while(buf[0]=='#');
+        10  	parse=strtok(buf," ");
+        85  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strtok.S:strtok (1x)
+       906  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+        10  	(*im_width)=atoi(parse);
+       868  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+       175  => /build/buildd/eglibc-2.19/stdlib/atoi.c:atoi (1x)
+         .  
+         5  	parse=strtok(NULL,"\n");
+        85  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strtok.S:strtok (1x)
+         6  	(*im_height)=atoi(parse);
+       175  => /build/buildd/eglibc-2.19/stdlib/atoi.c:atoi (1x)
+         .  
+         6  	fgets(buf,BUFFER,fip);
+       172  => /build/buildd/eglibc-2.19/libio/iofgets.c:fgets (1x)
+         6  	parse=strtok(buf," ");
+        85  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strtok.S:strtok (1x)
+         .  	
+         6  	im_size=(*im_width)*(*im_height);
+        12  	(*image)=(unsigned char *)malloc(sizeof(unsigned char)*im_size);
+       898  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+       229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+        13  	fread(*image,1,im_size,fip);
+       875  => /build/buildd/eglibc-2.19/libio/iofread.c:fread (1x)
+       890  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+         .  	
+         8  	fclose(fip);
+     1,210  => /build/buildd/eglibc-2.19/libio/iofclose.c:fclose@@GLIBC_2.2.5 (1x)
+       914  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+         5  }
+         .  
+         .  /* Call this function alone to write an image*/
+         .  void write_image_template(char *name, float *image, int im_width, int im_height)
+        35  {
+         .  	int i;
+        45          unsigned char *temp_img=(unsigned char*)malloc(sizeof(unsigned char)*im_width*im_height);
+     1,065  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (5x)
+26,214,430          for(i=0;i<(im_width*im_height);i++)
+         .          {
+62,914,560                  temp_img[i]=(unsigned char)image[i];
+         .          }
+        30          write_image(name,temp_img,im_width,im_height);
+    18,025  => image_template.h:write_image (5x)
+         .  
+        20          free(temp_img);
+       585  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (5x)
+        10  }
+         .  
+         .  void write_img_template(char *name, float *image,int im_width,int im_height)
+         .  {
+         .  
+         .  int i,j;
+         .  FILE *fop;
+         .  int im_size=im_width*im_height;
+         .  
+-- line 100 ----------------------------------------
+-- line 108 ----------------------------------------
+         .  for(j=0;j<im_width;j++)
+         .  	printf("%f\n",image[i*im_width+j]);
+         .  }
+         .  
+         .  //fclose(fop);
+         .  } 
+         .  
+         .  void write_image(char *name, unsigned char *image, int im_width, int im_height)
+        35  {
+         .  	FILE *fop; 
+        15  	int im_size=im_width*im_height;
+         .  	
+        30  	fop=fopen(name,"w+");
+     2,515  => /build/buildd/eglibc-2.19/libio/iofopen.c:fopen@@GLIBC_2.2.5 (5x)
+        44  	fprintf(fop,"P5\n%d %d\n255\n",im_width,im_height);
+       905  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+     6,225  => /build/buildd/eglibc-2.19/stdio-common/fprintf.c:fprintf (5x)
+        44  	fwrite(image,sizeof(unsigned char),im_size,fop);
+     4,690  => /build/buildd/eglibc-2.19/libio/iofwrite.c:fwrite (5x)
+       897  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+         .  	
+        20  	fclose(fop);
+     2,595  => /build/buildd/eglibc-2.19/libio/iofclose.c:fclose@@GLIBC_2.2.5 (5x)
+        10  }
+         .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: main.c
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 4 ----------------------------------------
+ .  #include <stdio.h>
+ .  #include <stdlib.h>
+ .  #include "image_template.h"
+ .  #include <math.h>
+ .  #include <sys/time.h>
+ .  #include "main.h"
+ .  
+ .  int main (int argc, char **argv)
+ 9  {
+ .  	/*Declare Variables*/
+ .  	float *org_img;
+ .  	float *Gx_mask, *Gy_mask;
+ .  	float *IGx, *IGy;	
+ .  	float *Gxy, *I_angle;
+ .  	float *suppressed, *threshold, *hyst;
+ .  	int i, j, m, n;
+ .  	int img_width, img_height;
+-- line 20 ----------------------------------------
+-- line 24 ----------------------------------------
+ .  	char nameIGy[20];
+ .          char nameIGx[20];
+ .          char gxName[20];
+ .          char gyName[20];
+ .          char fileGXY[20];
+ .          char fileIAng[20];
+ .  	char fileHyst[100];
+ .  	
+ 2  	if(argc != 4)
+ .  	{
+ .  		printf("\n Correct Usage: ./myexec <image name> <gaussian width> <sigma>");
+ .  		return 0;
+ .  	}
+ .  	
+ .  	//Read the image 
+ .  
+ 8  	printf("\n 1. Reading input image...");
+898  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+1,823  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ 8      	read_image_template(argv[1], &org_img, &img_width, &img_height); 
+23,139,905  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:read_image_template (1x)
+ .  
+ 4  	printf("\n Image reading complete...");
+1,784  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  	
+ .  	//Read arguments from the command line 
+ 7  	gauss_width = atoi(argv[2]);
+133  => /build/buildd/eglibc-2.19/stdlib/atoi.c:atoi (1x)
+13  	sigma = atof(argv[3]);
+892  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+657  => /build/buildd/eglibc-2.19/stdlib/atof.c:atof (1x)
+ .  	
+ .  	
+ .  	//Allocate memory for masks
+ 8  	Gx_mask = (float *)malloc(sizeof(float) * (gauss_width * gauss_width));
+178  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ 8  	Gy_mask = (float *)malloc(sizeof(float) * (gauss_width * gauss_width));
+178  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ .  
+ .  	//Allocate memory for intermediate images
+ 9  	IGy = (float *)malloc(sizeof(float) * (img_width * img_height));
+227  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ 9  	IGx = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ .  	
+ 9  	Gxy = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ 9  	I_angle = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ .  	
+ 9  	suppressed = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ 9  	threshold = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ .  	
+ 9  	hyst = (float *)malloc(sizeof(float) * (img_width * img_height));
+229  => /build/buildd/eglibc-2.19/malloc/malloc.c:malloc (1x)
+ .  	
+ .  /*1. Canny Edge Detector */
+ .  	//Give Gx_mask, Gy_mask values
+ 8  	gaussianX_mask(Gx_mask, gauss_width, sigma);
+42,771  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:gaussianX_mask (1x)
+ 8  	gaussianY_mask(Gy_mask, gauss_width, sigma);
+42,038  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:gaussianY_mask (1x)
+ .  
+ .  	//Get IGy: convolve(org_img,Gx_mask)
+ 4  	printf("\n 2. Performing convolution for IGy and IGx..");
+2,738  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+10  	convolve(org_img, img_width, img_height, Gx_mask, gauss_width, IGy);
+9,020,676,450  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:convolve (1x)
+ .  
+ .  	//Get IGx: convolve(org_img, Gy_mask)
+10  	convolve(org_img, img_width, img_height, Gy_mask, gauss_width, IGx);
+9,020,676,450  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:convolve (1x)
+ .  
+ 4  	printf("\n Convolution complete...");
+1,678  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ .  	//Get magnitude based on ONLY IGy and IGx
+ 4  	printf("\n 3. Obtaining magnitude image...");
+2,102  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ 8  	magnitude(IGx, IGy, img_width, img_height, Gxy); 
+74,458,878  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:magnitude (1x)
+ .  
+ 4  	printf("\n Magnitude image is ready...");
+1,890  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ .  	//Get directionality based on ONLY IGy and IGx
+ 4  	printf("\n 4. Obtaining direction image..");
+2,049  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ 8  	angle(IGy, IGx, img_width, img_height, I_angle); 
+231,372,101  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:angle (1x)
+ .  
+ .  
+ 4  	printf("\n Direction image is ready...");
+1,890  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ 4  	printf("\n 5. Performing non-maximal suppression...");
+2,579  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  	
+ .  
+ .  	//Suppress auxillary image
+16  	memcpy(suppressed, Gxy, sizeof(float) * img_width * img_height);
+893  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+720,932  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy-sse2-unaligned.S:__memcpy_sse2_unaligned (1x)
+ .  
+ 9  	nonmaximal_suppression(suppressed, I_angle, 0, img_width, img_height);
+110,592,651  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:nonmaximal_suppression (1x)
+ .  
+ 4  	printf("\n Non-maximal suppression complete...");
+2,314  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  	
+ .  	//Use thresholding to remove some noise from auxillary image
+ 4  	printf("\n 6. Performing double thresholding...");
+2,367  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+12  	memcpy(threshold,suppressed,sizeof(float)*img_width*img_height);
+720,932  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy-sse2-unaligned.S:__memcpy_sse2_unaligned (1x)
+ .  
+ .  //	double_thresh(suppressed, threshold, img_width, img_height); //VKP: Need some changes here
+ .  
+14  	qsort(suppressed, img_width * img_height, sizeof(float), comp);
+902  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+637,509,232  => /build/buildd/eglibc-2.19/stdlib/msort.c:qsort (1x)
+ .  
+ 9  	int index=0.95*img_width*img_height;
+ .  
+ .  	float thigh,tlow;
+ .  
+ 7  	thigh=suppressed[index];
+ .  
+ 4  	tlow=thigh/5;
+ .  
+ 8  	printf("\n high %f low %f",thigh,tlow);
+5,446  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+10  	double_threshold(threshold,thigh,tlow,img_width,img_height);
+55,429,516  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:double_threshold (1x)
+ .  
+ 4  	printf("\n Double thresholding complete...");
+2,102  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ 4  	printf("\n 7. Performing Edge Linking (last step of Canny edge detector..");
+3,786  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ 6  	edge_linking(threshold, hyst, img_width, img_height);	
+39,495,423  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/main.h:edge_linking (1x)
+ .  	
+ 4  	printf("\n Edge Linking complete...");
+1,731  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  	
+ .  	//Put image name into string
+ 4  	sprintf(fileHyst,"Edges.pgm");
+ 3  	sprintf(nameIGy,"IGy.pgm");
+ 3          sprintf(nameIGx,"IGx.pgm");
+ 4          sprintf(fileGXY, "Gxy_img.pgm");
+ 4          sprintf(fileIAng, "I_Angle.pgm");
+ .  
+ .  	//Write out the images
+ .  
+ 4  	printf("\n Writing output images. Edge image is Edges.pgm");
+2,897  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ 6  	write_image_template(fileHyst, hyst, img_width, img_height);
+17,831,313  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:write_image_template (1x)
+ 6  	write_image_template(nameIGy, IGy, img_width, img_height);
+17,829,373  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:write_image_template (1x)
+ 6          write_image_template(nameIGx, IGx, img_width, img_height);
+17,829,373  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:write_image_template (1x)
+ 6          write_image_template(fileGXY, Gxy, img_width, img_height);
+17,829,373  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:write_image_template (1x)
+ 6          write_image_template(fileIAng, I_angle, img_width, img_height);
+17,829,373  => /home/drew/bitbucket/2016_spring_ecpe170/lab05/part5/image_template.h:write_image_template (1x)
+ .  
+ 4  	printf("\n Edge Processing complete!");
+1,784  => /build/buildd/eglibc-2.19/stdio-common/printf.c:printf (1x)
+ .  
+ .  	//free memory
+ 4  	free(Gx_mask);
+119  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(Gy_mask);
+130  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(IGx);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(IGy);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(Gxy);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(I_angle);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(suppressed);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(hyst);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ 4  	free(threshold);
+44  => /build/buildd/eglibc-2.19/malloc/malloc.c:free (1x)
+ .  	
+ 1  	return 0;
+ .  
+ 7  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: main.h
+--------------------------------------------------------------------------------
+            Ir 
+
+             .  #include <stdio.h>
+             .  #include <stdlib.h>
+             .  #include <math.h>
+             .  #include <sys/time.h>
+             .  #define PI 3.14159
+             .  /*Function that returns a gaussian mask in the X direction*/
+             .  void gaussianX_mask(float *mask, int gauss_width, float sigma)
+             7  {
+             .  	int i,j;
+             2  	float E = 2.7182818;
+             .  	
+           103  	for(i=-1*gauss_width/2; i <= gauss_width/2; i++)
+             .  	{
+         1,133  		for(j=-1*gauss_width/2; j <= gauss_width/2; j++)
+             .  		{
+         5,933  			mask[(i+gauss_width/2)*gauss_width+j+gauss_width/2]= -1*i*pow(E,-1*(i*i+j*j)/(2*sigma*sigma));
+           729  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+        34,860  => /build/buildd/eglibc-2.19/math/w_pow.c:pow (121x)
+             .  		}
+             .  	}
+             4  }
+             .  /*   Function that returns a gaussian mask in the Y direction  */
+             .  void gaussianY_mask(float *mask, int gauss_width, float sigma)
+             7  {
+             .  	int i,j;
+             2  	float E = 2.7182818;
+             .  	
+           103  	for(i=-1*gauss_width/2; i <= gauss_width/2; i++)
+             .  	{
+         1,133  		for(j=-1*gauss_width/2; j <= gauss_width/2; j++)
+             .  		{
+         5,929  			mask[(i+gauss_width/2)*gauss_width+j+gauss_width/2]= -1*j*pow(E,-1*(i*i+j*j)/(2*sigma*sigma));
+        34,860  => /build/buildd/eglibc-2.19/math/w_pow.c:pow (121x)
+             .  		}
+             .  	}
+             4  }
+             .  /*  Define and declare convolve function  */
+             .  void convolve(float *org_img, int img_width, int img_height, float *mask, int gauss_width, float *op_img)
+            16  {
+             .  	int i, j, k, l;
+             .  	float temp;
+         8,202  	for(i=0; i<img_height; i++)
+             .  	{
+     8,398,848  		for(j=0; j<img_width; j++)
+             .  		{
+     4,194,304  			temp = 0;
+   216,006,656  			for(k=-1*gauss_width/2; k<=gauss_width/2; k++)
+             .  			{
+ 2,376,073,216  				for(l=-1*gauss_width/2; l<=gauss_width/2; l++)
+             .  				{
+ 5,064,976,990  					if(((i+k) < img_height) && ((j+l) < img_width) && ((i+k)>= 0) && ((j+l)>=0))
+10,348,625,992  						temp += mask[(k+gauss_width/2)*gauss_width+(l+gauss_width/2)]*org_img[(i+k)*img_width+(j+l)];
+             .  				}
+             .  			}
+    23,068,672  			op_img[i*img_width+j] = (float)temp;
+             .  		}
+             .  	}
+             4  }
+             .  
+             .  /*Calculate the magnitude image */
+             .  
+             .  void magnitude(float *mask1, float *mask2, int img_width, int img_height, float *Gxy)
+             9  {
+             .  	int i, j, k, l;
+             .  	float temp1, temp2;
+         4,101  	for(i=0; i<img_height; i++)
+             .  	{
+     4,199,424  		for(j=0; j<img_width; j++)
+             .  		{
+    23,068,672  			temp1 = mask1[i*img_width+j] * mask1[i*img_width+j];
+    23,068,672  			temp2 = mask2[i*img_width+j] * mask2[i*img_width+j];
+    18,874,372  			Gxy[i*img_width+j] = sqrt(temp1+temp2);
+           744  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+     5,242,880  => /build/buildd/eglibc-2.19/math/w_sqrt.c:sqrt (1048576x)
+             .  		}
+             .  	}
+             4  }
+             .  
+             .  /*   Goes pixel by pixel and calculates the directionality of the pixel    */
+             .  void angle(float *gy_img, float *gx_img, int img_width, int img_height, float *I_angle)
+             9  {
+             .  	int i, j;
+             .  	float temp;
+         4,101  	for(i=0; i<img_height; i++)
+             .  	{
+     4,199,424  		for(j=0; j<img_width; j++)
+             .  		{
+    39,845,892  			I_angle[i*img_width+j] = atan2(gy_img[i*img_width+j], gx_img[i*img_width+j]);
+           751  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+   187,321,920  => /build/buildd/eglibc-2.19/math/w_atan2.c:atan2 (1048576x)
+             .  		}
+             .  	}
+             4  }
+             .  
+             .  
+             .  //Needed for qsort functionality
+             .  int comp(const void * a, const void * b)
+    76,978,220  {
+   115,467,330  	return ( *(int*)a - *(int*)b );
+    38,489,110  }
+             .  
+             .  //double Thresholding
+             .  void double_threshold(float *Gxy,int thigh,int tlow,int width,int height)
+             7  {
+             .          int i,j;
+             .          float pixel;
+         4,101          for(i=0;i<height;i++)
+     4,199,424                  for(j=0;j<width;j++)
+    13,631,488                          if(Gxy[i*width+j]>thigh)
+       633,936                                  Gxy[i*width + j]= (float)255;
+    25,889,448                          else if (Gxy[i*width+j]<thigh && Gxy[i*width+j]>tlow)
+     1,414,584                                  Gxy[i*width + j]= (float)125;
+             .                          else
+     9,656,526                                  Gxy[i*width + j]= (float)0;
+             .  
+             2  }
+             .  
+             .  
+             .  void edge_linking(float *thresh, float *hyst , int img_width, int img_height)
+             7  {
+             .  
+             .  	int i,j; //variables were undeclared
+             .  	
+            12  	memcpy(hyst,thresh,sizeof(float)*img_width*img_height); //VKP: This memcpy was missing too
+       720,932  => /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy-sse2-unaligned.S:__memcpy_sse2_unaligned (1x)
+             .  
+         4,101  	for(i = 0; i < img_height; i++)
+             .  	{
+     4,199,424  		for(j = 0; j < img_width; j++)
+             .  		{
+    14,680,064  			if(thresh[i * img_width + j] == 125)
+             .  			{
+       471,528  				if((j-1)>=0)
+     1,650,348  					if(thresh[i*img_width + (j-1)] == 255)
+        14,700  						hyst[i*img_width + j] = 255;
+       466,628  				else if(j+1 < img_width)
+     1,633,198  					if(thresh[i*img_width + (j+1)] == 255)
+         4,704  						hyst[i*img_width + j] = 255;
+       930,120  					else if(i-1 >= 0 && j-1 >= 0)
+     1,743,975  						if(thresh[(i-1)*img_width + (j-1)] == 255)
+        18,252  							hyst[i*img_width + j] = 255;
+       917,952  					else if(i+1 < img_height && j+1 < img_width)
+     1,721,160  						if(hyst[(i+1)*img_width + (j+1)] == 255)
+         1,116  							hyst[i*img_width + j] = 255;
+       458,604  					else if(i-1 >= 0)
+     1,719,765  						if(thresh[(i-1)*img_width + (j)] == 255)
+        12,612  							hyst[i*img_width + j] = 255;
+       454,400  					else if(i+1 < img_height)
+     1,704,000  						if(thresh[(i+1)*img_width + (j)] == 255)
+         9,228  							hyst[i*img_width + j] = 255;
+       451,324  					else if(i+1 < img_height)
+     1,692,465  						if(thresh[(i+1)*img_width + (j-1)] == 255)
+        12,012  							hyst[i*img_width + j] = 255;
+       894,640  					else if(i-1 >= 0 && j+1 < img_width)
+     1,677,450  						if(thresh[(i-1)*img_width + (j+1)] == 255)
+         6,840  							hyst[i*img_width + j] = 255;
+             .  					else
+     1,223,860  						hyst[i*img_width + j] = 0;
+             .  			}
+             .  		}
+             .  	}
+             2  }
+             .  
+             .  			
+             .  
+             .  
+             .  //VKP: Dr. Pallipuram's version of suppression
+             .  void nonmaximal_suppression(float *img,float *angle,int offset, int width,int height)
+             7  {
+             .          int i,j;
+             3          float theta=0;int count=0;
+             2          float mag=0;
+         6,152          for(i=offset;i<offset+height;i++)
+             .          {
+     4,199,424                  for(j=0;j<width;j++)
+             .                  {
+    11,534,336                          theta=angle[i*width+j];
+             .                          //convert theta from radians to degrees
+     7,340,032                          theta=(180/PI)*theta;
+     3,145,728                          if(theta<0)
+     2,010,176                                  theta+=(float)180;
+    11,534,336                          mag=img[i*width+j];
+     5,697,522                          if(theta>(157.5) || theta <=22.5) //Left and Right
+             .                          {
+     1,598,484                                  if((j-1) >=0)
+     5,181,787                                    if(mag<img[(i)*width+j-1])
+     1,137,587                                                img[i*width+j]=(float)0;
+             .  
+     1,598,484                                  if((j+1)<width)
+     5,181,852                                          if(mag<img[(i)*width+j+1])
+     2,031,898                                                  img[i*width+j]=(float)0;
+             .                          }
+             .  
+     5,686,527                          if(theta>(22.5) && theta <=67.5) //Diagonal pixels
+             .                          {
+     2,059,756                                  if((i-1)>=0 && (j-1) >=0)
+     3,604,566                                          if(mag<img[(i-1)*width+j-1])
+       768,790                                                  img[i*width+j]=(float)0;
+     2,059,752                                  if((i+1)<height && (j+1) <width)
+     3,604,510                                          if(mag<img[(i+1)*width+j+1])
+     1,286,153                                                  img[i*width+j]=(float)0;
+             .                          }
+     4,914,117                          if(theta>(67.5) && theta <= 112.5) //top and bottom. 
+             .                          {
+       773,732                                  if((i-1)>=0)
+     2,501,343                                          if(mag<img[(i-1)*width+j])
+       532,268                                                  img[i*width+j]=(float)0;
+       773,732                                  if((i+1)<height)
+     2,501,382                                          if(mag<img[(i+1)*width+j])
+       987,228                                                  img[i*width+j]=(float)0;
+             .  
+             .                          }
+     4,333,818                          if(theta>(112.5) && theta <= 157.5) //Anti Diagonal.
+             .                          {
+     1,584,404                                  if((i+1)<height && (j-1)>=0)
+     2,772,686                                          if(mag<img[(i+1)*width + j-1])
+     1,017,489                                                  img[i*width+j]=(float)0;
+     1,584,412                                  if((i-1) >=0 &&(j+1)<=width)
+     2,772,714                                          if(mag<img[(i-1)*width+j+1])
+        96,888                                                  img[i*width+j]=(float)0;
+     2,178,572                                                  img[i*width+j]=(float)0;
+             .  
+             .  
+             .                          }
+             .                  }
+             .          }
+             2  }
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  /build/buildd/eglibc-2.19/stdio-common/printf.c
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/ieee754/dbl-64/dbl2mpn.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_atan2.c
+  /build/buildd/eglibc-2.19/ctype/ctype-info.c
+  /build/buildd/eglibc-2.19/malloc/morecore.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/x86_64/brk.c
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/generic/get-rounding-mode.h
+  /build/buildd/eglibc-2.19/stdio-common/vfscanf.c
+  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c
+  /build/buildd/eglibc-2.19/math/w_pow.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy-sse2-unaligned.S
+  /build/buildd/eglibc-2.19/elf/do-rel.h
+  /build/buildd/eglibc-2.19/elf/dl-cache.c
+  /build/buildd/eglibc-2.19/math/w_atan2.c
+  /build/buildd/eglibc-2.19/stdlib/cmp.c
+  /build/buildd/eglibc-2.19/math/w_sqrt.c
+  /build/buildd/eglibc-2.19/elf/dl-object.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strchr.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/generic/math_private.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S
+  /build/buildd/eglibc-2.19/stdio-common/printf-parse.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/s_isinf.c
+  /build/buildd/eglibc-2.19/stdlib/exit.c
+  /build/buildd/eglibc-2.19/stdio-common/_itoa.c
+  /build/buildd/eglibc-2.19/elf/dl-deps.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strlen.S
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/ieee754/dbl-64/mpn2dbl.c
+  /build/buildd/eglibc-2.19/elf/dl-init.c
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h
+  /build/buildd/eglibc-2.19/stdlib/../stdlib/gmp.h
+  /build/buildd/eglibc-2.19/misc/sbrk.c
+  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c
+  /build/buildd/eglibc-2.19/misc/init-misc.c
+  /build/buildd/eglibc-2.19/libio/iofclose.c
+  /build/buildd/eglibc-2.19/stdlib/strtod.c
+  /build/buildd/eglibc-2.19/stdio-common/../sysdeps/generic/get-rounding-mode.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memchr.S
+  /build/buildd/eglibc-2.19/setjmp/sigjmp.c
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/x86_64/../sysconf.c
+  /build/buildd/eglibc-2.19/elf/../misc/sbrk.c
+  /build/buildd/eglibc-2.19/elf/dl-altinit.c
+  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/setjmp.S
+  /build/buildd/eglibc-2.19/stdlib/../stdlib/strtol.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-vdso.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_atan2.c
+  /build/buildd/eglibc-2.19/string/../string/memcmp.c
+  /build/buildd/eglibc-2.19/elf/dl-fini.c
+  /build/buildd/eglibc-2.19/string/../bits/stdlib-bsearch.h
+  /build/buildd/eglibc-2.19/elf/dl-misc.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/i386/fpu/fenv_private.h
+  /build/buildd/eglibc-2.19/malloc/arena.c
+  /build/buildd/eglibc-2.19/malloc/hooks.c
+  /build/buildd/eglibc-2.19/elf/../elf/dl-runtime.c
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/math_private.h
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/stdlib/divrem.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c
+  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floor.S
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/getpagesize.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rint.S
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S
+  /build/buildd/eglibc-2.19/elf/dl-minimal.c
+  /build/buildd/eglibc-2.19/elf/rtld.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/s_isnan.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_pow.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memmove.c
+  /build/buildd/eglibc-2.19/stdio-common/../include/rounding-mode.h
+  /build/buildd/eglibc-2.19/malloc/malloc.c
+  /build/buildd/eglibc-2.19/stdio-common/printf_fp.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rtld-memset.S
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strrchr.S
+  /build/buildd/eglibc-2.19/csu/../csu/init-first.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceil.S
+  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/unregister-atfork.c
+  /build/buildd/eglibc-2.19/elf/dl-open.c
+  /build/buildd/eglibc-2.19/elf/dl-addr.c
+  /build/buildd/eglibc-2.19/elf/setup-vdso.h
+  /build/buildd/eglibc-2.19/libio/filedoalloc.c
+  /build/buildd/eglibc-2.19/csu/../sysdeps/generic/dl-hash.h
+  /build/buildd/eglibc-2.19/stdlib/msort.c
+  /build/buildd/eglibc-2.19/elf/dl-error.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../rtld-strlen.S
+  /build/buildd/eglibc-2.19/libio/iovsscanf.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floorf.S
+  /build/buildd/eglibc-2.19/libio/iofgets_u.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S
+  /build/buildd/eglibc-2.19/stdlib/atoi.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h
+  /build/buildd/eglibc-2.19/stdio-common/fprintf.c
+  /build/buildd/eglibc-2.19/elf/dl-version.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strchr.S
+  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/bsd-_setjmp.S
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memcpy.S
+  /build/buildd/eglibc-2.19/libio/libioP.h
+  /build/buildd/eglibc-2.19/libio/../sysdeps/unix/sysv/linux/sys/sysmacros.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rintf.S
+  /build/buildd/eglibc-2.19/csu/libc-start.c
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/_exit.c
+  /build/buildd/eglibc-2.19/libio/iofread.c
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/lshift.S
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S
+  /build/buildd/eglibc-2.19/elf/dl-load.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_log.c
+  /build/buildd/eglibc-2.19/stdlib/strtod_l.c
+  /build/buildd/eglibc-2.19/elf/dl-environ.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_exp.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strtok.S
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/x86_64/sysconf.c
+  /build/buildd/eglibc-2.19/stdlib/../stdlib/strtol_l.c
+  /build/buildd/eglibc-2.19/stdio-common/vfprintf.c
+  /build/buildd/eglibc-2.19/libio/genops.c
+  /build/buildd/eglibc-2.19/stdlib/../include/rounding-mode.h
+  /build/buildd/eglibc-2.19/stdio-common/sscanf.c
+  /build/buildd/eglibc-2.19/stdlib/cxa_finalize.c
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/mul_1.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c
+  /build/buildd/eglibc-2.19/libio/fileops.c
+  /build/buildd/eglibc-2.19/libio/iofwrite.c
+  /build/buildd/eglibc-2.19/stdlib/cxa_thread_atexit_impl.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceilf.S
+  /build/buildd/eglibc-2.19/elf/dl-lookup.c
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/getsysstats.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rawmemchr.S
+  /build/buildd/eglibc-2.19/elf/dl-debug.c
+  /build/buildd/eglibc-2.19/elf/dl-tls.c
+  /build/buildd/eglibc-2.19/csu/../sysdeps/unix/sysv/linux/x86_64/init-first.c
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/brk.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-irel.h
+  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/register-atfork.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c
+  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/gettimeofday.c
+  /build/buildd/eglibc-2.19/stdlib/atof.c
+  /build/buildd/eglibc-2.19/libio/iofgets.c
+  /build/buildd/eglibc-2.19/stdlib/../sysdeps/x86_64/rshift.S
+  /build/buildd/eglibc-2.19/elf/dl-reloc.c
+  /build/buildd/eglibc-2.19/stdio-common/../nptl/sysdeps/pthread/allocalim.h
+  /build/buildd/eglibc-2.19/libio/strops.c
+  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/e_pow.c
+  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/time.c
+  /build/buildd/eglibc-2.19/string/../string/strstr.c
+  /build/buildd/eglibc-2.19/elf/dl-hwcaps.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_exp.c
+  /build/buildd/eglibc-2.19/libio/iofopen.c
+  /build/buildd/eglibc-2.19/libio/iogetline.c
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/ieee754/dbl-64/wordsize-64/math_private.h
+  /build/buildd/eglibc-2.19/posix/../sysdeps/posix/sysconf.c
+
+--------------------------------------------------------------------------------
+Ir 
+--------------------------------------------------------------------------------
+97  percentage of events annotated
+

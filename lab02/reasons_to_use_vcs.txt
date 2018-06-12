@@ -1,0 +1,5 @@
+Version control systems save code that might otherwise be lost during edits
+Provides a way to comment on the history of code that you've created as time progresses
+Good for experimentation because if you mess up you can roll back to an earlier version
+It's great for collabrative work because multiple people can edit the same code and merge it together
+You can see who has made what changes in a particular project

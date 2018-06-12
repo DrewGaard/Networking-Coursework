@@ -1,0 +1,45 @@
+Script done, file is connection_log_googleImage.txt
+drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C www.google.com 80" connection_log_googleImage.txt
+Script started, file is connection_log_googleImage.txt
+GET /images/logos/google_logo_41.png HTTP/1.1
+Host: www.google.com
+Connection: close 
+
+HTTP/1.1 200 OK
+Content-Type: image/png
+Date: Thu, 24 Mar 2016 16:32:39 GMT
+Expires: Thu, 24 Mar 2016 16:32:39 GMT
+Cache-Control: private, max-age=31536000
+Last-Modified: Wed, 11 Dec 2013 16:03:07 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 2357
+X-XSS-Protection: 1; mode=block
+Connection: close
+
+�PNG
+
+IHDRt�T�<�PLTEc�g`g�j��7'_dc��F3�<)����l��O?i�qd������R?i����9&��jedd��?*�7%�?/�B/������@*�;'�E/�/o��G1�UAo�f��7'�B+�A,c�e���o�j��='��o��E1b�P>�R>�H4�O?���F1��b�q����Q?r�m��O:f�o���a�_���=(�J��a��Mc���
+                                                                       ������
+                                                                              ��^��O;��d��L:�G/�����N:�<'�UC�TB���:'�TB�G3�K8��f�l�!r�l�k�o�d��A+g�i��B-��j�g�m� s�q�r�q�i��>*�?*�=)�E1�Y�L�D/e�f��J5n��G2f��X�X�<)"t��Vn���`��H5�M8���J7`��M:i^��G3�7%f��VE�SAm�e�����
+                                                     �<'��`�VDj�����P=���>+�A.���F1�P�Wc������[���UB�V�:(������	�S�a��Q=�����B.�7%�M<�O>�J9�]����	�a�^���Q@�I6�J7���<&
+�O=�P@l�k�����tRNS��� 0@�P@��pp�P`�0� `��`0�P@�`�@``��0�@`p���0�``��Pp0�P����@�`0p�p��`��p 0��衏pP�0�`�p��p@�p�@�ЀP��@0��@pС����@p�PP��BzqIDATx^ŕep�X�׉�anhӤ���23Õ��+333Ifv������
+                                �L_o�,Y�眛��s�/k�g�~��y��f��E����V���1�/PY�f�B�c42
+     {2T
+}��o������=-&Ӿ�ՀH�2,�ׄR�/]�ʮG���eQQK��o�TS}�;Ĺ�ASQ��Q�^s�v�t��������	_}�����rξK�8qJk͖}�
+  �D:�j6W��4'Z��Z)�H�ҜHG*���+mؼw��s�C�@��];�A^:[�bv���/
+?�+~��p�J���                                            ���D
+              ~7�}?$d����"��?�ܿk��W*++o��g��ɲѷ�&�
+D�����.5�"n99%3zk����~܏+*�G�m���1��q��ŋ��i/j��"S�WR����ღ�R߭����I�Ɯ^�~w������������?�?�<Ȣ���@���N���tws�n���ξM�
+d���Cws��555ۄ :##C����˗             c��S�<x0�sss����MB�ҩ��_��L|Ԋ���	,~��3
+�O;���L�|Ο�	˧55�@xk��cÆ/mg̬���aZ�j���ẫW�N��د
+����Y^^.JǫT�s�9{��>y�ҥX��-f!Z)H���)/��d{}*6)�"=U2
+                                                    AiV@j}}}4
+                                                             W%'�|���i`��l��Gn
+돥���<�T�lRD�GNR�:��+�49I�z���ӥ�V�}�'2������Xn�s�d�����!��.�HM�]�2 �СCaiiiw�*1�>��u"X����Q*�h���X&��%b������X1��t
+                                             �������Od�/�B�D��$���N"�E��ᑔR8 �k�>3Q:��F��Q��+;8� Xi�R��?X�I��8Jᴔ���Ƣt�N�邀C:�ͭ�a� �e*��c���&V��=v�JR�/���]�����aY�9���%��`-S"��R��֝}A\Xa�|�;���Y}�t7��V�_
+                                                           R���$�yŁǸ9〇���:r��<�%J��_pE���
+�O��h[�.���7tAا��^���(@�=����ģc1��H�aK)�p��v�����<<M������G9�����p���t��ϼ��R��*��*@�ք����**ҝS��'���#-�%���a�Sc	S���c4���)
+                                                  ���׃p�������Cf].>U����D��e 27+�\~
+g�����Aj0(1�ff&�ˑ��Gt{�TJ�����@>�"��(�"3��@9�P�?N$���4���C�$�_o��k{D?IEND�B`�Script done, file is connection_log_googleImage.txt
+

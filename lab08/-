@@ -1,0 +1,1120 @@
+Script started on Thu 24 Mar 2016 08:41:16 AM PDT
+GET /about/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu/
+Connection: close ]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ GET /about/ HTTP/1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_jN8XrRaNCMcy/7Ar4n61TEgdW2UWPdodnPqfiITzHgGYYpY+6xtR1b8gHLOxo4DejXlB9q4F1YJpWWpxrfEfRg==">
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.http.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.http.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.src="http://www.http.com/rg-logabpstatus.php?a=YUtDc2Z3MGpTSWJNcjFEdXJoVTU0c3Nwb0FUV1lPYUFZTmJGM0VBS0xLYVZOUDg4b29Lem4rRkYrbWUvS1Q3TzNFcGtqYkY2d0VkYnhSVnF4RkErUjYwNS91bjVXVDY0TW1PNFowbVRyTEE9&b="+abp;document.body.appendChild(imglog);}catch(err){}}try{window.onload=handleABPDetect();}catch(err){}</script><title>http.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+<link rel="shortcut icon" type="image/png" href="http://b.rmgserving.com/rmgpsc/9733/fav1.png"/>
+<style type="text/css">
+*{margin:0; padding:0}
+a{text-decoration:none; outline:none}
+a:hover{text-indent:0; cursor:pointer}
+.clearfix:after{visibility: hidden;display:block;font-size: 0;content: " ";clear: both;height:0}
+* html .clearfix{zoom:1} 
+*:first-child+html .clearfix{zoom:1}
+:focus {outline:none}
+iframe{border:0;}
+body{font-family:Arial, Helvetica, sans-serif; background:url(http://d.rmgserving.com/rmgpsc/7867/body-bg.gif) 0 0 repeat #000}
+.arrows{background:url(arrows.jpg)}
+#main-wrap{background:url(http://a.rmgserving.com/rmgpsc/7867/header-bg.jpg) top center no-repeat; background-size:100% 100px}
+.fltlt{float:left;}
+.container{width:960px; margin:0 auto}
+.header{height:100px}
+.leftblk {background: url(http://d.rmgserving.com/rmgpsc/7867/logo1.png) 0 3px no-repeat;float: left;height: 60px;margin: 21px 0 0;overflow: hidden;padding: 10px 0 0 70px;width: 360px;word-wrap: break-word;}
+.leftblk img{float: left; margin-top: 23px; padding-right: 15px;}
+.domain_name{float:left;  font-size:26px; font-weight:normal; color:#fff;width: 100%; }
+.searchbox{float:right; width:460px; * width:470px; _width:470px; height:28px !important; padding-top:2px; margin-top:35px;}
+
+.content{padding-bottom:10px; background:#202020;}
+.frt_arr{float:left;width:286px; height:425px; background:url(http://a.rmgserving.com/rmgpsc/8667/frst_arr.jpg);background-position:10px 50px; background-repeat:no-repeat}
+
+
+.lst_arr{float:left;width:286px; height:425px; background:url(http://c.rmgserving.com/rmgpsc/8667/last_arr.jpg); background-position:0  50px; background-repeat:no-repeat}
+
+.kwd_bloack{float:left; width:388px; margin-top:48px}
+
+.bottom_bg{height:44px; /*background:#181818; */ margin-top:34px}
+.bottom_rs{width:960px; height:44px; overflow:hidden; margin:0 auto; position:relative}
+#bot_rs{padding-top:9px}
+.separator{position:absolute; top:0;  left:156px; width:5px; height:44px; border-left:2px solid #282828; background:url(http://d.rmgserving.com/rmgpsc/7867/sep-arw.gif) center center no-repeat}
+
+.footer-nav{width: 100%; height:74px; text-align:center; color:#c0c0c0;}
+.footer-nav a{font-size:12px; line-height:74px; color:#c0c0c0;  padding: 0 5px; text-decoration:underline}
+.footer-nav a:hover{text-decoration: none}
+
+.inquire {text-align:right; padding-top:10px; color:#fff}
+.inquire a {font-size:12px; font-weight:normal; color:#fff}
+
+.sale-msg {background:#fff; color:#4b4b4b; text-align:center; font-size:14px; width:100%; top:0; left:0}
+.sale-msg a {text-decoration: none; color:#079ce9; font-size:14px}
+.sale-msg a:hover, .bottom_rs ul li a:hover, .mid_rs ul li a:hover, .inquire a:hover{text-decoration: underline}
+
+#sonexoframe{}
+@media not all and (min-width: 970px){
+   .leftblk {float: none; margin: 0;background-size: 47px auto;height: 45px;width: 75%;}
+  .leftblk img {width: 40px; margin-top: 10px; padding-right: 15px}
+  .domain_name {line-height: normal; font-size: 19px; width: 100%; float: none;}
+  .searchbox {float: none; margin-top:6px}
+  
+  .container{width: 95%}
+  .content{padding-bottom: 40px;}
+  .frt_arr {width: 30%; background-size: 90%; background-position:10px 82px; }
+  .lst_arr {width: 30%; background-size: 90%; background-position: 0 86px; }
+  .kwd_bloack{width: 40%;}
+  .bottom_bg{display: none}
+  .footer-nav a{line-height: 45px}
+}
+@media not all and (min-width: 740px){
+  .frt_arr{display: none}
+  .lst_arr{display: none}
+  .kwd_bloack {float: none; width: 95%; margin: 0 auto; padding-top: 10px}
+
+}
+@media(min-width: 320px) and (max-width: 767px) {
+   .searchbox {width: auto;}
+   iframe{height:45px}
+}
+@media not all and (min-width: 400px) {
+#sonexoframe{height:40px}
+}
+
+
+</style>
+<script type="text/javascript" src="http://www.google.com/adsense/domains/caf.js"></script></head>
+<body onload="" onunload="" onBeforeUnload="">
+<noscript><meta http-equiv="refresh" content="0;url=http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=w9bIt096j6hz0KIakarjmy3HBizh0J0MITpek9yaDA2cqdyEBj%2FUwvDx4tjg6pm9BgUs7vgCdZWVbcrDHNSVRYwQQU7Qlo%2BBDqViJWW1a3i3y43%2FPJDqlO%2F2WgmqZ1kN1BWvD41WLL8EhTlgVGhyOlHNFCM3CHtxS%2BVy1iZypPTkrwQAgABdMrct9L6VkCw5&t=gnojs" /><center><p style="padding:1em; font-size:1.5em;">For search results please <a href="http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=w9bIt096j6hz0KIakarjmy3HBizh0J0MITpek9yaDA2cqdyEBj%2FUwvDx4tjg6pm9BgUs7vgCdZWVbcrDHNSVRYwQQU7Qlo%2BBDqViJWW1a3i3y43%2FPJDqlO%2F2WgmqZ1kN1BWvD41WLL8EhTlgVGhyOlHNFCM3CHtxS%2BVy1iZypPTkrwQAgABdMrct9L6VkCw5&t=gnojs" style="text-decoration:underline; color:#0000EE;">CLICK HERE</a>.</p></center></noscript> <script type="text/javascript" language="javascript">
+function __gpup(url, height, width, name) { sw=window.open(url,name,'height='+height+',width='+width+',location=no,toolbar=0,resizable=1,scrollbars=1');if (window.focus) {sw.focus()}; return false;};
+</script>
+<div class="clearfix" id="sonexoframe">
+<iframe scrolling="no" marginheight="0" src="http://37.97.135.129/subfiles/s.php?domain=http.com" width="100%" height="35" class="fltlt"></iframe>
+</div>
+<script text="text/javascript" >
+
+var design =  { 
+    'pageOptions':{
+      'pubId' : '',
+      'resultsPageBaseUrl' : '',
+      'fontFamily' : 'arial',
+      'hl' : 'en',
+      'maxTermLength' : 29,
+      'adtest' : 'on',
+      'clicktrackUrl' : '',
+      'fontFamilyAttribution' : 'arial',
+      'type' : 'pageoptions',
+'uiOptimize':false,
+
+      'pageLoadedCallback' : function(requestAccepted, status) {
+        document.body.style.visibility = 'visible';
+        if (!requestAccepted) {
+        }
+      }
+    },
+    'searchboxBlock':{
+    'container' : 'searchbox',
+    'type' : 'searchbox',
+    'fontSizeSearchInput' : 16,
+    'fontSizeSearchButton' : 13,
+    'widthSearchInput' : 215,
+    'colorSearchButton' : '#e2e2e2',
+    'hideSearchInputBorder' : false,
+    'hideSearchButtonBorder' : true,
+    'heightSearchInput' : 24,
+    'heightSearchButton' : 30
+  },
+
+    'mainrs':{
+      'container' : 'main_rs',
+      'type' : 'relatedsearch',
+    'colorBackground' : 'transparent',
+      'number' : 8,
+      'fontSizeTitle' : 20,
+    'titleBold': false,
+      'colorTitleLink' : '#aac0d9',
+      'noTitleUnderline' : false,
+    'lineHeightTitle' : 38,
+    'fontFamily': 'arial',
+    'webFontFamily' : 'Libre Baskerville',
+    'horizontalAlignment': 'center',
+    'fontSizeAttribution' : 13,
+    'colorAttribution' : '#ababab',
+    'attributionBold' : false,
+    'attributionUppercase': false,
+    'attributionSpacingBelow' : 10,
+    'rolloverLinkUnderline' : false,
+    'rolloverLinkColor' : '#e50d7c'
+    }
+    
+  
+
+};
+  </script>
+<div id="main-wrap" class="clearfix">
+  <div class="container clearfix">
+      <div class="header clearfix">
+          <div class="leftblk">
+                <h3 class="domain_name">http.com</h3>
+            </div>
+            <div class="searchbox clearfix" id="searchbox"></div>
+        </div>
+        <div class="content clearfix">
+          <div class="arrows frt_arr"></div>
+            <div class="kwd_bloack clearfix" id="main_rs"></div>
+            <div class="arrows lst_arr"></div>
+        </div>
+            </div>
+    <div class="bottom_bg clearfix">
+      <div class="bottom_rs clearfix">
+          <!--<span class="separator"></span>-->
+
+        </div>
+    </div>
+    <div class="footer-nav">                
+        <a href="#" onclick="return __gpup('http://www.http.com/rmgdsc/rprivacypolicy.php',600,800,'rpp');">Privacy Policy</a>    </div>
+</div>
+<script type="text/javascript" language="javascript">
+ window._debug=false; window._dumpdata=false; 
+		var _cflp = true;
+		var pgld  = true;
+		var totRS = -1;
+		var cntRS = 0;
+		var _cfstc = false;
+		var _cfblocker  = true;
+		var _cfrg =true;
+		var _cfHelp 	= _cfHelp || {};
+		_cfHelp.design	= design || {};
+		_cfHelp.servVars= {"webadfl":"webads.php","_clhdl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=%5B%7Crdr_url%7C%5D&gm=lgo%2FsnbrTJfASPKNJeLfR2HcsKFU07yQAXefOnnHsIEjpbQYFP5a8LNpnv3STF9dW6ixrMBlnpbRA8GRuC5I0%2F2IG6LBXlnA3SsalXEXZptcCgruDYK5rn24Vu1c9ppfLp2zM7fR1%2BkhUdRwKYnk9EdeySjwZrcq%2F7qE2aRMwFoFLhQh%2BKrcDji%2BKBoNfs2i&gc=11052063796797822990474&gi=OXxUGQO9DsIKlta8%2FhV0C8rQOhGYtNetvAFte2Lw3pPPx8n61LV405nYuFSWFxCYIKBXDsrw48M8rBaG9mzruSxi1MQ5cU1I8gvhkO%2Fq3Hg9trfgAP5hnif5HwKCOdcldxGXtNcZKQzY5Nlr%2FjwFBW%2BsfB1f1KwI9A0tmhEcdr0EiAlvP%2BDc2%2B7bHi4CBJcabqtTNaJ5oMviiI4ac5Nc3e%2BcXD1nMjEe671vniiym9VMPVs9mdoIOKT2Bbg2rTaL8DtvKGuyYsaOWu%2Fd%2BSPMD1s9uhLuHqWWMgt%2FpuR9bQvqUb29qejqYhsq34DfDoByktPM5wtYc8rxHYUoGGnCROXdDJq5iZV0B948e3sdeCc%3D","kchst":"http:\/\/www.http.com\/","kcpg":"render","kcprm":"ga=w9bIt096j6hz0KIakarjmy3HBizh0J0MITpek9yaDA2cqdyEBj%2FUwvDx4tjg6pm9BgUs7vgCdZWVbcrDHNSVRYwQQU7Qlo%2BBDqViJWW1a3i3y43%2FPJDqlO%2F2WgmqZ1kN1BWvD41WLL8EhTlgVGhyOlHNFCM3CHtxS%2BVy1iZypPTkrwQAgABdMrct9L6VkCw5&gqsg=tbsHGYKKxGmHBlrD%2BsLsPee64ocS37R%2BytoewRgHDjv%2FsRwWhm3IMmgfmgeGRCo1&klb=2&maxads=0&gerf=%2FCXZvmED9KiyehgKB0dm6ydwbUMP%2BCbKwlT7miV%2F3bg%3D&","jtchdl":"0","lkwtkn":null,"qry":null,"cntry":"US","prvid":1574876,"lgky":"azVQc3B0MHhuc090RlA1RWkvZm94OHJsRTdhbFlxZE51OGZqM2cvRjVGZCtLR2lLZEpmQzlkRnJFV3pKN3lCU0NiU3hJaGJodU1iMlBFL2ZJc1hSR1Y3NFhHNjVSWFExWE8vN0RKNzJ5OVRCSFVKQXRPaGtLSzF2Z2s4eHp2SXM5R2NmWTJ3T0prN3U0WkNiY3drenBRPT0%3D","_aftrprss":"","wclhdl":"http:\/\/dsctracking.com\/webclk?&gr=%5B%7Crdr_url%7C%5D&gm=uMgl8MsAFgydExbzX5vaVEvgKBfB2dDC4VgrPAeZlaLN0nwo6S%2Bzc1TqXpoCZ7VRPPGQRXYcAfyrPpwRfh2fDEVGwGBbItlUFXtTpFm%2FU%2F26rfsCFmShh0eGdbDahKZZF9Mmz9Xid0Vy%2B0GUB08JfiiZEsJ5NalIXiX3OxbOA7Zfl28qno4zxcKXQvG3vlR4&gc=1105206379679782299061&gi=TJuqiYvwwGUA82Xo58fV0Csz2AnXgb4DvKD66BZFPQfXuc%2BGrgqS8kMhHRTYnKQUhfdCDSmk2UseENItxshl%2Bw6aBghrIE6n3Rm0c1QALJtIIlAJqbsiYO8ENLUJqv%2BZdj%2FnaKPd8FaxS3StMv7h04fkRMQ1OsD9pq21Jbhpe2VQAV1sPPpdr7UpITaNj4Ame7kk0d1GDC%2B2y6hRApRHl4KFn%2B9Qshotj9IocOZ390HDB1Yx20sd2yVM7pAo587AmKX35d3d7gYp32Ei%2F2jb0IB84WC3UUiEvWIwh6JeRkzx3KlehRKW0XHvYk8vxKvoZFTPh4lAaGzt0a17CaUN6636TPexZ0w%2BiLUQ0zw3UvY%3D","is_webad_enabled":0,"loaderimage":"http:\/\/d.rmgserving.com\/rmgisc\/loader.gif","_afdad":1,"noredir":0,"erpub":"oversee11_3ph_adult_xml","erch":"372","erpubcln":"ca-dp-oversee11_3ph_xml","erchcln":"000307","ghu":"http:\/\/www.http.com\/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=w9bIt096j6hz0KIakarjmy3HBizh0J0MITpek9yaDA2cqdyEBj%2FUwvDx4tjg6pm9BgUs7vgCdZWVbcrDHNSVRYwQQU7Qlo%2BBDqViJWW1a3i3y43%2FPJDqlO%2F2WgmqZ1kN1BWvD41WLL8EhTlgVGhyOlHNFCM3CHtxS%2BVy1iZypPTkrwQAgABdMrct9L6VkCw5"};
+		_cfHelp.newOpts = {
+	    "pageoptions": {"kw":"car","pubId":"dp-oversee31_3ph_xml","channel":"012174,test61,test87","hl":"en","adtest":"off","resultsPageBaseUrl":"http:\/\/www.http.com\/?ga=w9bIt096j6hz0KIakarjmy3HBizh0J0MITpek9yaDA2cqdyEBj%2FUwvDx4tjg6pm9BgUs7vgCdZWVbcrDHNSVRYwQQU7Qlo%2BBDqViJWW1a3i3y43%2FPJDqlO%2F2WgmqZ1kN1BWvD41WLL8EhTlgVGhyOlHNFCM3CHtxS%2BVy1iZypPTkrwQAgABdMrct9L6VkCw5&gqsg=tbsHGYKKxGmHBlrD%2BsLsPee64ocS37R%2BytoewRgHDjv%2FsRwWhm3IMmgfmgeGRCo1&klb=2&maxads=0&gerf=kum%2FvBnsRuP1JUOS8EoN7iH7BJ5OwGZjGVxFulKPZKs%3D&","clicktrackUrl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=http%3A%2F%2Fgoogle.com%2F%3FRMGcaf%261458834079&gm=bAlffBgT4G2IVHzG7XvRh7G8nw8Mx%2BN4KEsUvQv%2FE5M2bqVezexNRpHEb85ZZoNPRS8kj1LCGzSRRqDz4nW2XotUkdOY7Mu%2FL7oAcIq1URfRo3QSetVZ89xjn6onqzpB5LevyomDC3a%2BF5aqZg8MV%2BwPW2G6PauWQzRMo6k8kSUQ8vWkMYCMVRCgyTytgqH6&gc=11052063796797822990426&gi=94M6oxbMmrZQgaNuExsalqy4qv%2F93lbk5jnmZWEHR8hyfFw8rjxbErPbgymC46qjRzSrWOu7Eh9WdOTJtjYn1ARcaIYuvu4JPPBtDrFnCLvscU6vfKYAOUomfn35vgezQj%2Bzn7ewwvCq6beAl1lKmae3rPU45FsEspRQkT8pWrKHBjnCDWC4XnY9wYyoaqbtLESeQ9rwOfEB%2FuOqdzWRmGdTbhl0SRGACGTgTFU2a4I2dsnTtsg6XS7AH8w1V3wgk3yWzrnlxAanhGltQfe7l3KtyMYTNSsojdaTxS%2B4uCb7HuEVGHRrVUHxe2zkAbQ0WzaHyV%2BOcJjK7lak2NLIqdKFI6q4OrSfbeI7m9asgfC0FUd1u7ruugGAlWZFb%2FhGcNpVezPO6kkKLBdNxJYQtg%3D%3D","domainRegistrant":"as-drid-2351749742621707","optimizeTerms":false,"terms":"[\"Domain Registration\",\"Network Monitoring\",\"Email Hosting\",\"Website Hosting\",\"Network Monitoring Software\",\"High Speed internet\",\"Cable Internet\",\"Broadband Internet\",\"Web Security\",\"Dial-Up Internet\",\"Wireless Internet Providers\",\"Unlimited Broadband\",\"Internet Speed Check\",\"Compare Broadband\",\"Cheap Internet Service\",\"Best Broadband Deals\",\"Internet Solutions\",\"Internet Music\",\"Internet Help\",\"Internet Telephony\",\"Business Internet Providers\",\"Broadband Availability\",\"Prepaid Wireless Internet\",\"Internet Florists\",\"Mobile Wireless Internet\"]","domainName":"http.com"} ,
+		"relatedsearch" :{ "adLoadedCallback": function (cnm, ld) {if(pgld && !ld && _cfrg && !_cfstc && _cflp){cntRS++;if(cntRS >= totRS && totRS!= -1 ){window.location="http://www.HTTP.com/?_stc_=1"}}}},
+		"textads" : {"adLoadedCallback": function (cnm, ld) {} },
+		"imagead" : {"adLoadedCallback": function (cnm, ld) {}},
+		"ads" : { "adLoadedCallback": function (cnm, ld) {}}
+    	};
+
+		_cfHelp.newOpts.pageoptions["pageLoadedCallback"]	= function(requestAccepted, status) { this.onPageLoad(requestAccepted, status); _cfblocker=false};try{if(abp){_cfHelp.newOpts.pageoptions['channel'] = _cfHelp.newOpts.pageoptions['channel']+',test101'}}catch(e){}
+</script>
+ <script type="text/javascript" src="http://c.rmgserving.com/rmgdsc/newcafv2.js"></script> </body>
+</html>]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Host: http://ecs-network.serv .pacific.edu/
+Host:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Connection: close 
+Connection:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C http://e cs-network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /about/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu/
+Connection: close 
+
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C http://e cs-network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /about/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu/ecpe-170/lab/
+Connection: close 
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C http://e cs-network.serv.pacific.edu 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu/
+Connection: close 
+
+netcat: getaddrinfo: Name or service not known
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C http://e cs-network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu
+Connection: close 
+
+
+netcat: getaddrinfo: Name or service not known
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C http://e cs-network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: http://ecs-network.serv.pacific.edu
+Connection: close 
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C ecs-netw ork.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C ecs-netw ork.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+^^?  GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C www.ecs- network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE.txt
+Script started, file is connection_log_ECPE.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+
+Script done, file is connection_log_ECPE.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ netcat -C www.ecs-network.ser v.pacific.edu/ecpe-170/lab/ 80
+
+
+
+
+
+
+
+netcat: getaddrinfo: Name or service not known
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ netcat -C www.ecs-network.ser v.pacific.edu/ecpe-170/lab/ 80
+GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+
+netcat: getaddrinfo: Name or service not known
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ GET /ecpe-170/lab/ HTTP/1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_jN8XrRaNCMcy/7Ar4n61TEgdW2UWPdodnPqfiITzHgGYYpY+6xtR1b8gHLOxo4DejXlB9q4F1YJpWWpxrfEfRg==">
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.http.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.http.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.src="http://www.http.com/rg-logabpstatus.php?a=WG1MK1NLMzlzMng4VitmdHNBZEtJYTlMaEw3NmxZdmRFZnAyMk5VOTlwQmlGSGdaZGR6Z1FCYkxhZGltQUVHZWU1blNMTjRsdXNOb0lESEh0VzJuU1pqdWt4WGRQaE5GY2had044RDJOQWM9&b="+abp;document.body.appendChild(imglog);}catch(err){}}try{window.onload=handleABPDetect();}catch(err){}</script><title>http.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+<link rel="shortcut icon" type="image/png" href="http://c.rmgserving.com/rmgpsc/9733/fav1.png"/>
+<style type="text/css">
+*{margin:0; padding:0}
+a{text-decoration:none; outline:none}
+a:hover{text-indent:0; cursor:pointer}
+.clearfix:after{visibility: hidden;display:block;font-size: 0;content: " ";clear: both;height:0}
+* html .clearfix{zoom:1} 
+*:first-child+html .clearfix{zoom:1}
+:focus {outline:none}
+iframe{border:0;}
+body{font-family:Arial, Helvetica, sans-serif; background:url(http://c.rmgserving.com/rmgpsc/7867/body-bg.gif) 0 0 repeat #000}
+.arrows{background:url(arrows.jpg)}
+#main-wrap{background:url(http://c.rmgserving.com/rmgpsc/7867/header-bg.jpg) top center no-repeat; background-size:100% 100px}
+.fltlt{float:left;}
+.container{width:960px; margin:0 auto}
+.header{height:100px}
+.leftblk {background: url(http://c.rmgserving.com/rmgpsc/7867/logo1.png) 0 3px no-repeat;float: left;height: 60px;margin: 21px 0 0;overflow: hidden;padding: 10px 0 0 70px;width: 360px;word-wrap: break-word;}
+.leftblk img{float: left; margin-top: 23px; padding-right: 15px;}
+.domain_name{float:left;  font-size:26px; font-weight:normal; color:#fff;width: 100%; }
+.searchbox{float:right; width:460px; * width:470px; _width:470px; height:28px !important; padding-top:2px; margin-top:35px;}
+
+.content{padding-bottom:10px; background:#202020;}
+.frt_arr{float:left;width:286px; height:425px; background:url(http://d.rmgserving.com/rmgpsc/8667/frst_arr.jpg);background-position:10px 50px; background-repeat:no-repeat}
+
+
+.lst_arr{float:left;width:286px; height:425px; background:url(http://a.rmgserving.com/rmgpsc/8667/last_arr.jpg); background-position:0  50px; background-repeat:no-repeat}
+
+.kwd_bloack{float:left; width:388px; margin-top:48px}
+
+.bottom_bg{height:44px; /*background:#181818; */ margin-top:34px}
+.bottom_rs{width:960px; height:44px; overflow:hidden; margin:0 auto; position:relative}
+#bot_rs{padding-top:9px}
+.separator{position:absolute; top:0;  left:156px; width:5px; height:44px; border-left:2px solid #282828; background:url(http://c.rmgserving.com/rmgpsc/7867/sep-arw.gif) center center no-repeat}
+
+.footer-nav{width: 100%; height:74px; text-align:center; color:#c0c0c0;}
+.footer-nav a{font-size:12px; line-height:74px; color:#c0c0c0;  padding: 0 5px; text-decoration:underline}
+.footer-nav a:hover{text-decoration: none}
+
+.inquire {text-align:right; padding-top:10px; color:#fff}
+.inquire a {font-size:12px; font-weight:normal; color:#fff}
+
+.sale-msg {background:#fff; color:#4b4b4b; text-align:center; font-size:14px; width:100%; top:0; left:0}
+.sale-msg a {text-decoration: none; color:#079ce9; font-size:14px}
+.sale-msg a:hover, .bottom_rs ul li a:hover, .mid_rs ul li a:hover, .inquire a:hover{text-decoration: underline}
+
+#sonexoframe{}
+@media not all and (min-width: 970px){
+   .leftblk {float: none; margin: 0;background-size: 47px auto;height: 45px;width: 75%;}
+  .leftblk img {width: 40px; margin-top: 10px; padding-right: 15px}
+  .domain_name {line-height: normal; font-size: 19px; width: 100%; float: none;}
+  .searchbox {float: none; margin-top:6px}
+  
+  .container{width: 95%}
+  .content{padding-bottom: 40px;}
+  .frt_arr {width: 30%; background-size: 90%; background-position:10px 82px; }
+  .lst_arr {width: 30%; background-size: 90%; background-position: 0 86px; }
+  .kwd_bloack{width: 40%;}
+  .bottom_bg{display: none}
+  .footer-nav a{line-height: 45px}
+}
+@media not all and (min-width: 740px){
+  .frt_arr{display: none}
+  .lst_arr{display: none}
+  .kwd_bloack {float: none; width: 95%; margin: 0 auto; padding-top: 10px}
+
+}
+@media(min-width: 320px) and (max-width: 767px) {
+   .searchbox {width: auto;}
+   iframe{height:45px}
+}
+@media not all and (min-width: 400px) {
+#sonexoframe{height:40px}
+}
+
+
+</style>
+<script type="text/javascript" src="http://www.google.com/adsense/domains/caf.js"></script></head>
+<body onload="" onunload="" onBeforeUnload="">
+<noscript><meta http-equiv="refresh" content="0;url=http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=lZKGuB5tJVmU7%2Fa7BULhzTbqwGbGjUnSPFcAtN8PjDgibdJi3kIkDEAg17GALySVf%2BAr3rm%2FVOU2Ay%2BWWHymGEs5dDD%2Bh0zEc6bASlK0OaSfKSWjOsTLVqZwednYeM%2FJ61%2BPlhAjBDv61D7nrtmrXRypdYctrNLK7NSDYjlF3zYKat2GGYJbZGuQxXqvvtxO&t=gnojs" /><center><p style="padding:1em; font-size:1.5em;">For search results please <a href="http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=lZKGuB5tJVmU7%2Fa7BULhzTbqwGbGjUnSPFcAtN8PjDgibdJi3kIkDEAg17GALySVf%2BAr3rm%2FVOU2Ay%2BWWHymGEs5dDD%2Bh0zEc6bASlK0OaSfKSWjOsTLVqZwednYeM%2FJ61%2BPlhAjBDv61D7nrtmrXRypdYctrNLK7NSDYjlF3zYKat2GGYJbZGuQxXqvvtxO&t=gnojs" style="text-decoration:underline; color:#0000EE;">CLICK HERE</a>.</p></center></noscript> <script type="text/javascript" language="javascript">
+function __gpup(url, height, width, name) { sw=window.open(url,name,'height='+height+',width='+width+',location=no,toolbar=0,resizable=1,scrollbars=1');if (window.focus) {sw.focus()}; return false;};
+</script>
+<div class="clearfix" id="sonexoframe">
+<iframe scrolling="no" marginheight="0" src="http://37.97.135.129/subfiles/s.php?domain=http.com" width="100%" height="35" class="fltlt"></iframe>
+</div>
+<script text="text/javascript" >
+
+var design =  { 
+    'pageOptions':{
+      'pubId' : '',
+      'resultsPageBaseUrl' : '',
+      'fontFamily' : 'arial',
+      'hl' : 'en',
+      'maxTermLength' : 29,
+      'adtest' : 'on',
+      'clicktrackUrl' : '',
+      'fontFamilyAttribution' : 'arial',
+      'type' : 'pageoptions',
+'uiOptimize':false,
+
+      'pageLoadedCallback' : function(requestAccepted, status) {
+        document.body.style.visibility = 'visible';
+        if (!requestAccepted) {
+        }
+      }
+    },
+    'searchboxBlock':{
+    'container' : 'searchbox',
+    'type' : 'searchbox',
+    'fontSizeSearchInput' : 16,
+    'fontSizeSearchButton' : 13,
+    'widthSearchInput' : 215,
+    'colorSearchButton' : '#e2e2e2',
+    'hideSearchInputBorder' : false,
+    'hideSearchButtonBorder' : true,
+    'heightSearchInput' : 24,
+    'heightSearchButton' : 30
+  },
+
+    'mainrs':{
+      'container' : 'main_rs',
+      'type' : 'relatedsearch',
+    'colorBackground' : 'transparent',
+      'number' : 8,
+      'fontSizeTitle' : 20,
+    'titleBold': false,
+      'colorTitleLink' : '#aac0d9',
+      'noTitleUnderline' : false,
+    'lineHeightTitle' : 38,
+    'fontFamily': 'arial',
+    'webFontFamily' : 'Libre Baskerville',
+    'horizontalAlignment': 'center',
+    'fontSizeAttribution' : 13,
+    'colorAttribution' : '#ababab',
+    'attributionBold' : false,
+    'attributionUppercase': false,
+    'attributionSpacingBelow' : 10,
+    'rolloverLinkUnderline' : false,
+    'rolloverLinkColor' : '#e50d7c'
+    }
+    
+  
+
+};
+  </script>
+<div id="main-wrap" class="clearfix">
+  <div class="container clearfix">
+      <div class="header clearfix">
+          <div class="leftblk">
+                <h3 class="domain_name">http.com</h3>
+            </div>
+            <div class="searchbox clearfix" id="searchbox"></div>
+        </div>
+        <div class="content clearfix">
+          <div class="arrows frt_arr"></div>
+            <div class="kwd_bloack clearfix" id="main_rs"></div>
+            <div class="arrows lst_arr"></div>
+        </div>
+            </div>
+    <div class="bottom_bg clearfix">
+      <div class="bottom_rs clearfix">
+          <!--<span class="separator"></span>-->
+
+        </div>
+    </div>
+    <div class="footer-nav">                
+        <a href="#" onclick="return __gpup('http://www.http.com/rmgdsc/rprivacypolicy.php',600,800,'rpp');">Privacy Policy</a>    </div>
+</div>
+<script type="text/javascript" language="javascript">
+ window._debug=false; window._dumpdata=false; 
+		var _cflp = true;
+		var pgld  = true;
+		var totRS = -1;
+		var cntRS = 0;
+		var _cfstc = false;
+		var _cfblocker  = true;
+		var _cfrg =true;
+		var _cfHelp 	= _cfHelp || {};
+		_cfHelp.design	= design || {};
+		_cfHelp.servVars= {"webadfl":"webads.php","_clhdl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=%5B%7Crdr_url%7C%5D&gm=LlYkDHQ31ibyzcxP9EiuQUTP%2F4DS4i1a%2FupWvbinKFM9tiDflKtpbqSENbhArD8QkIo66vD4Rz92C%2FbWdOYG7DOm4jli%2Fke9TUTnjDW2G%2BZUuvO1762DPJujSBAfmlp3BL8gFujTu8oX2zmUmYGOataXGs7WYrL3d6%2F0ckZeQBvspHNii6%2BGhuLs9K0jjU5j&gc=11152063804393830412437&gi=%2B4PunBTARu6z0LfcqcMO20YXPxLfW61XSe4JmeGQnQcpJW%2BQODi9AfT6%2FhoIoUrftOuS84pSZWzu7C%2F%2Bvkrmk6TVPEBfjvXFpP0Ei94d1TJrD0a703nVm3SgTjzh%2BZq4Fv%2FCpFh3gi0Myd93uMlqwxQsNRx13lP7JRElLS%2FJNZtMobnd6vr83VLSSLAHGRb%2BL57mQye2k7I4hT%2BAcRF%2BPOnfKLplSvzF2EipsSmI%2F6sQQXxoQxaZJw5bigwlNO3M4xQbTqob79%2FKcgyliVCP5wvnHbLjsRHEtdb1QttK2D9cfkM4J3dG73uRU9f2zipXGjqA9%2BOa1ve6Pt1fx3PyeVfvqVPCakudNkHDzAX6AME%3D","kchst":"http:\/\/www.http.com\/","kcpg":"render","kcprm":"ga=lZKGuB5tJVmU7%2Fa7BULhzTbqwGbGjUnSPFcAtN8PjDgibdJi3kIkDEAg17GALySVf%2BAr3rm%2FVOU2Ay%2BWWHymGEs5dDD%2Bh0zEc6bASlK0OaSfKSWjOsTLVqZwednYeM%2FJ61%2BPlhAjBDv61D7nrtmrXRypdYctrNLK7NSDYjlF3zYKat2GGYJbZGuQxXqvvtxO&gqsg=pe%2BX1%2FMT51b9JxAOcj9WlSMb3%2F5J8qz30VXj2q3SbAB6IuNOd5W5L7dPn%2BPQ51An&klb=2&maxads=0&gerf=VRA2v3qiOMGEypsrNaszeRd7iRbcugPQDo9LomaqARI%3D&","jtchdl":"0","lkwtkn":null,"qry":null,"cntry":"US","prvid":1574876,"lgky":"djFlZFJyR3NydG0zbXZCZ25NaFBqYnBVUDBuSnpSQ2pMalJYalFndFZLN2p5KzZpUDRzR1NxL1pCTHgyUlRMZVFXMm9TMWxiMU5CeTU2b29qUUNIb1A0K01ZWnNBVnRrSjc4bEo5VEl2QmJ3U00yNlBYSmVjSG5pVEcrZFQvM0xSYmw1OTdCeUdYRmxoU0tHdEJEaWxBPT0%3D","_aftrprss":"","wclhdl":"http:\/\/dsctracking.com\/webclk?&gr=%5B%7Crdr_url%7C%5D&gm=6BDsW7ncJfhigcCg%2FPQE0VJNcp2%2BdHWoCrDV8SVQSb0l1u05%2FNm0gQ02XQ4dyvPClX691Kj40YAYv4HEJaANSIa462Bu0fmZksou09043nOb%2BT7TKI9Rwmt61Udf9RmcjiGThlEwS3Mt9iQwIzhz7TKHidw83gk7y9gpfdGZmSVYSVYANw7i4H8%2ByMM0uTrp&gc=11152063804393830412243&gi=K75eUYB0QZIZh7XyjVNxzGN%2FAc%2BJov2h8pzgMnybII8TDB9JCPbnNI9H3yrD9PCQOnNbbbXhErXrlvcYmQAc9TMGEdOonU%2BqW9mV%2FF2hAhpuV2MPpYr6D6syC28s%2FtR8RZQosl1Smwknf%2Fy4vV2KtiuLMskVMN8kFOV48AFPgvBShrqhduX1NGIbeBX%2BKIYYQg2Dqle7qCIiOGFTw%2FEfDfuTaaV72oh58PoBzdEXzmi53%2FvCb8DDH9E9FSw3a0c1gnT9dMoNg83hHBX7Tztl8eUQnHbDzOAMrblrUairE%2FjODbD96COvRuact3Icu516IWSmWkqYLuxPayx9P80%2B8BIM3VfXI2fW9tWGntD0kzw%3D","is_webad_enabled":0,"loaderimage":"http:\/\/d.rmgserving.com\/rmgisc\/loader.gif","_afdad":1,"noredir":0,"erpub":"oversee11_3ph_adult_xml","erch":"372","erpubcln":"ca-dp-oversee11_3ph_xml","erchcln":"000307","ghu":"http:\/\/www.http.com\/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=lZKGuB5tJVmU7%2Fa7BULhzTbqwGbGjUnSPFcAtN8PjDgibdJi3kIkDEAg17GALySVf%2BAr3rm%2FVOU2Ay%2BWWHymGEs5dDD%2Bh0zEc6bASlK0OaSfKSWjOsTLVqZwednYeM%2FJ61%2BPlhAjBDv61D7nrtmrXRypdYctrNLK7NSDYjlF3zYKat2GGYJbZGuQxXqvvtxO"};
+		_cfHelp.newOpts = {
+	    "pageoptions": {"kw":"car","pubId":"dp-oversee31_3ph_xml","channel":"012174,test61,test87","hl":"en","adtest":"off","resultsPageBaseUrl":"http:\/\/www.http.com\/?ga=lZKGuB5tJVmU7%2Fa7BULhzTbqwGbGjUnSPFcAtN8PjDgibdJi3kIkDEAg17GALySVf%2BAr3rm%2FVOU2Ay%2BWWHymGEs5dDD%2Bh0zEc6bASlK0OaSfKSWjOsTLVqZwednYeM%2FJ61%2BPlhAjBDv61D7nrtmrXRypdYctrNLK7NSDYjlF3zYKat2GGYJbZGuQxXqvvtxO&gqsg=pe%2BX1%2FMT51b9JxAOcj9WlSMb3%2F5J8qz30VXj2q3SbAB6IuNOd5W5L7dPn%2BPQ51An&klb=2&maxads=0&gerf=Q5NU0cahXe7yutebtQf2XbHuvZ6Z%2BlQyoWV%2FuLcHX4U%3D&","clicktrackUrl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=http%3A%2F%2Fgoogle.com%2F%3FRMGcaf%261458834839&gm=kAtqMiU%2Bc8Xr8VGpXjciqLK0lXn056kzUyEs6QKu8InDJJgHOMLfztymgJb86f5UlZOM3j%2B7s3OUJlfQZicJ%2FUTmI6JAEtHyjVUYcJ5bAbpUZkdJ8RROhc56Hn0fwHcLUGwCfFILagoS5oLu%2BXQ7rvgvb0sWMMWBx%2FXoOPMu3WyIXpw%2BWG7364chCiWnqVhB&gc=11152063804393830412382&gi=CfgY9peH6i1Vxe7h%2FgLurSfLz8lZ0uhMpPBSUlHsM9YcfEj3vT3XwqG2li6g1mBj5LW95NWir3vbXZOH8%2FB0%2FExlJko7lxdjQ8SlKAYXR7BDMgdQpEuYRDjgUNSE9glcU%2FoW3S2eS%2Fwoz02Ttj34Ka9e5%2BByhcgWXYm9TahaBF85WCiUk02gb0IdXxReQFbzobmOq2Tc%2BHJ69JN57gF0KXpQQhWe%2FxElwxsm1kdvpUaQuHNdRbNwBsJiSEgz%2F5TTocwu5FOAVgS1fvJ1TLJYAgAHotFEOrjmqaILY%2BAwZHxtwT7NQze%2FsHtCnBJw2gTeYa%2FLM1JKAf%2BpCYXib9I3vjxvApXCzKQbrmvVwWvjuC4EdqFRedYXEpZ8jq5oyTS5nlrePpv%2F8v63ovM7%2BRbb%2BA%3D%3D","domainRegistrant":"as-drid-2351749742621707","optimizeTerms":false,"terms":"[\"Domain Registration\",\"Network Monitoring\",\"Email Hosting\",\"Website Hosting\",\"Network Monitoring Software\",\"High Speed internet\",\"Cable Internet\",\"Broadband Internet\",\"Web Security\",\"Dial-Up Internet\",\"Wireless Internet Providers\",\"Unlimited Broadband\",\"Internet Speed Check\",\"Compare Broadband\",\"Cheap Internet Service\",\"Best Broadband Deals\",\"Internet Solutions\",\"Internet Music\",\"Internet Help\",\"Internet Telephony\",\"Business Internet Providers\",\"Broadband Availability\",\"Prepaid Wireless Internet\",\"Internet Florists\",\"Mobile Wireless Internet\"]","domainName":"http.com"} ,
+		"relatedsearch" :{ "adLoadedCallback": function (cnm, ld) {if(pgld && !ld && _cfrg && !_cfstc && _cflp){cntRS++;if(cntRS >= totRS && totRS!= -1 ){window.location="http://www.HTTP.com/?_stc_=1"}}}},
+		"textads" : {"adLoadedCallback": function (cnm, ld) {} },
+		"imagead" : {"adLoadedCallback": function (cnm, ld) {}},
+		"ads" : { "adLoadedCallback": function (cnm, ld) {}}
+    	};
+
+		_cfHelp.newOpts.pageoptions["pageLoadedCallback"]	= function(requestAccepted, status) { this.onPageLoad(requestAccepted, status); _cfblocker=false};try{if(abp){_cfHelp.newOpts.pageoptions['channel'] = _cfHelp.newOpts.pageoptions['channel']+',test101'}}catch(e){}
+</script>
+ <script type="text/javascript" src="http://d.rmgserving.com/rmgdsc/newcafv2.js"></script> </body>
+</html>]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Host: www.ecs-network.serv.pa cific.edu
+Host:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Connection: close 
+Connection:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C www.ecs- network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE170.txt
+Script started, file is connection_log_ECPE170.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+
+netcat: getaddrinfo: Name or service not known
+Script done, file is connection_log_ECPE170.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C www.ecs- network.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE170.txt
+Script started, file is connection_log_ECPE170.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: www.ecs-network.serv.pacific.edu
+Connection: close 
+Script done, file is connection_log_ECPE170.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ script -c "netcat -C ecs-netw ork.serv.pacific.edu/ecpe-170/lab/ 80" connection_log_ECPE170.txt
+Script started, file is connection_log_ECPE170.txt
+GET /ecpe-170/lab/ HTTP/1.1
+Host: ecs-network.serv.pacific.edu
+Connection: close 
+
+Script done, file is connection_log_ECPE170.txt
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ netcat -C ecs-network.serv.pa cific.edu/ecpe-170/lab/ 80
+GET /ecpe-170/lab/ HTTP/1.1
+Host: ecs-network.serv.pacific.edu
+Connection: close 
+netcat: getaddrinfo: Name or service not known
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ GET /ecpe-170/lab/ HTTP/1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_jN8XrRaNCMcy/7Ar4n61TEgdW2UWPdodnPqfiITzHgGYYpY+6xtR1b8gHLOxo4DejXlB9q4F1YJpWWpxrfEfRg==">
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.http.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.http.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.src="http://www.http.com/rg-logabpstatus.php?a=Tm1qd09mNVdiMFM0dGl5K0VpK0lGRSs1OERZYVQ2UXlqZkRxRkNqTUQwYWpkZVVKaUFkQ2FuYStXZGFGMlNKajRjaHRNZ01jTGF1aFV5L0NTYVFmbXVlMGEvTnFVQUphMFN5aEovNzVuZ009&b="+abp;document.body.appendChild(imglog);}catch(err){}}try{window.onload=handleABPDetect();}catch(err){}</script><title>http.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+<link rel="shortcut icon" type="image/png" href="http://a.rmgserving.com/rmgpsc/9733/fav1.png"/>
+<style type="text/css">
+*{margin:0; padding:0}
+a{text-decoration:none; outline:none}
+a:hover{text-indent:0; cursor:pointer}
+.clearfix:after{visibility: hidden;display:block;font-size: 0;content: " ";clear: both;height:0}
+* html .clearfix{zoom:1} 
+*:first-child+html .clearfix{zoom:1}
+:focus {outline:none}
+iframe{border:0;}
+body{font-family:Arial, Helvetica, sans-serif; background:url(http://d.rmgserving.com/rmgpsc/7867/body-bg.gif) 0 0 repeat #000}
+.arrows{background:url(arrows.jpg)}
+#main-wrap{background:url(http://a.rmgserving.com/rmgpsc/7867/header-bg.jpg) top center no-repeat; background-size:100% 100px}
+.fltlt{float:left;}
+.container{width:960px; margin:0 auto}
+.header{height:100px}
+.leftblk {background: url(http://c.rmgserving.com/rmgpsc/7867/logo1.png) 0 3px no-repeat;float: left;height: 60px;margin: 21px 0 0;overflow: hidden;padding: 10px 0 0 70px;width: 360px;word-wrap: break-word;}
+.leftblk img{float: left; margin-top: 23px; padding-right: 15px;}
+.domain_name{float:left;  font-size:26px; font-weight:normal; color:#fff;width: 100%; }
+.searchbox{float:right; width:460px; * width:470px; _width:470px; height:28px !important; padding-top:2px; margin-top:35px;}
+
+.content{padding-bottom:10px; background:#202020;}
+.frt_arr{float:left;width:286px; height:425px; background:url(http://b.rmgserving.com/rmgpsc/8667/frst_arr.jpg);background-position:10px 50px; background-repeat:no-repeat}
+
+
+.lst_arr{float:left;width:286px; height:425px; background:url(http://c.rmgserving.com/rmgpsc/8667/last_arr.jpg); background-position:0  50px; background-repeat:no-repeat}
+
+.kwd_bloack{float:left; width:388px; margin-top:48px}
+
+.bottom_bg{height:44px; /*background:#181818; */ margin-top:34px}
+.bottom_rs{width:960px; height:44px; overflow:hidden; margin:0 auto; position:relative}
+#bot_rs{padding-top:9px}
+.separator{position:absolute; top:0;  left:156px; width:5px; height:44px; border-left:2px solid #282828; background:url(http://b.rmgserving.com/rmgpsc/7867/sep-arw.gif) center center no-repeat}
+
+.footer-nav{width: 100%; height:74px; text-align:center; color:#c0c0c0;}
+.footer-nav a{font-size:12px; line-height:74px; color:#c0c0c0;  padding: 0 5px; text-decoration:underline}
+.footer-nav a:hover{text-decoration: none}
+
+.inquire {text-align:right; padding-top:10px; color:#fff}
+.inquire a {font-size:12px; font-weight:normal; color:#fff}
+
+.sale-msg {background:#fff; color:#4b4b4b; text-align:center; font-size:14px; width:100%; top:0; left:0}
+.sale-msg a {text-decoration: none; color:#079ce9; font-size:14px}
+.sale-msg a:hover, .bottom_rs ul li a:hover, .mid_rs ul li a:hover, .inquire a:hover{text-decoration: underline}
+
+#sonexoframe{}
+@media not all and (min-width: 970px){
+   .leftblk {float: none; margin: 0;background-size: 47px auto;height: 45px;width: 75%;}
+  .leftblk img {width: 40px; margin-top: 10px; padding-right: 15px}
+  .domain_name {line-height: normal; font-size: 19px; width: 100%; float: none;}
+  .searchbox {float: none; margin-top:6px}
+  
+  .container{width: 95%}
+  .content{padding-bottom: 40px;}
+  .frt_arr {width: 30%; background-size: 90%; background-position:10px 82px; }
+  .lst_arr {width: 30%; background-size: 90%; background-position: 0 86px; }
+  .kwd_bloack{width: 40%;}
+  .bottom_bg{display: none}
+  .footer-nav a{line-height: 45px}
+}
+@media not all and (min-width: 740px){
+  .frt_arr{display: none}
+  .lst_arr{display: none}
+  .kwd_bloack {float: none; width: 95%; margin: 0 auto; padding-top: 10px}
+
+}
+@media(min-width: 320px) and (max-width: 767px) {
+   .searchbox {width: auto;}
+   iframe{height:45px}
+}
+@media not all and (min-width: 400px) {
+#sonexoframe{height:40px}
+}
+
+
+</style>
+<script type="text/javascript" src="http://www.google.com/adsense/domains/caf.js"></script></head>
+<body onload="" onunload="" onBeforeUnload="">
+<noscript><meta http-equiv="refresh" content="0;url=http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=y18WAm4Pk%2B4pXNc0X8CV0b74TSkejDp4dpXdOQAjI2k0KExnA%2Bv1geK4egE74SgXTWYS3RdWXLPwiZWoIoadfa%2F1m1kkM25hYbncZwXUaBayEvitt2nAu%2BEfc0olAasuGDHbihLvpKMPppGXWdQbHdon4tGJv3TFjJhfEYfkHVcYIkRVzRn1KXm%2Bwau1LL3r&t=gnojs" /><center><p style="padding:1em; font-size:1.5em;">For search results please <a href="http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=y18WAm4Pk%2B4pXNc0X8CV0b74TSkejDp4dpXdOQAjI2k0KExnA%2Bv1geK4egE74SgXTWYS3RdWXLPwiZWoIoadfa%2F1m1kkM25hYbncZwXUaBayEvitt2nAu%2BEfc0olAasuGDHbihLvpKMPppGXWdQbHdon4tGJv3TFjJhfEYfkHVcYIkRVzRn1KXm%2Bwau1LL3r&t=gnojs" style="text-decoration:underline; color:#0000EE;">CLICK HERE</a>.</p></center></noscript> <script type="text/javascript" language="javascript">
+function __gpup(url, height, width, name) { sw=window.open(url,name,'height='+height+',width='+width+',location=no,toolbar=0,resizable=1,scrollbars=1');if (window.focus) {sw.focus()}; return false;};
+</script>
+<div class="clearfix" id="sonexoframe">
+<iframe scrolling="no" marginheight="0" src="http://37.97.135.129/subfiles/s.php?domain=http.com" width="100%" height="35" class="fltlt"></iframe>
+</div>
+<script text="text/javascript" >
+
+var design =  { 
+    'pageOptions':{
+      'pubId' : '',
+      'resultsPageBaseUrl' : '',
+      'fontFamily' : 'arial',
+      'hl' : 'en',
+      'maxTermLength' : 29,
+      'adtest' : 'on',
+      'clicktrackUrl' : '',
+      'fontFamilyAttribution' : 'arial',
+      'type' : 'pageoptions',
+'uiOptimize':false,
+
+      'pageLoadedCallback' : function(requestAccepted, status) {
+        document.body.style.visibility = 'visible';
+        if (!requestAccepted) {
+        }
+      }
+    },
+    'searchboxBlock':{
+    'container' : 'searchbox',
+    'type' : 'searchbox',
+    'fontSizeSearchInput' : 16,
+    'fontSizeSearchButton' : 13,
+    'widthSearchInput' : 215,
+    'colorSearchButton' : '#e2e2e2',
+    'hideSearchInputBorder' : false,
+    'hideSearchButtonBorder' : true,
+    'heightSearchInput' : 24,
+    'heightSearchButton' : 30
+  },
+
+    'mainrs':{
+      'container' : 'main_rs',
+      'type' : 'relatedsearch',
+    'colorBackground' : 'transparent',
+      'number' : 8,
+      'fontSizeTitle' : 20,
+    'titleBold': false,
+      'colorTitleLink' : '#aac0d9',
+      'noTitleUnderline' : false,
+    'lineHeightTitle' : 38,
+    'fontFamily': 'arial',
+    'webFontFamily' : 'Libre Baskerville',
+    'horizontalAlignment': 'center',
+    'fontSizeAttribution' : 13,
+    'colorAttribution' : '#ababab',
+    'attributionBold' : false,
+    'attributionUppercase': false,
+    'attributionSpacingBelow' : 10,
+    'rolloverLinkUnderline' : false,
+    'rolloverLinkColor' : '#e50d7c'
+    }
+    
+  
+
+};
+  </script>
+<div id="main-wrap" class="clearfix">
+  <div class="container clearfix">
+      <div class="header clearfix">
+          <div class="leftblk">
+                <h3 class="domain_name">http.com</h3>
+            </div>
+            <div class="searchbox clearfix" id="searchbox"></div>
+        </div>
+        <div class="content clearfix">
+          <div class="arrows frt_arr"></div>
+            <div class="kwd_bloack clearfix" id="main_rs"></div>
+            <div class="arrows lst_arr"></div>
+        </div>
+            </div>
+    <div class="bottom_bg clearfix">
+      <div class="bottom_rs clearfix">
+          <!--<span class="separator"></span>-->
+
+        </div>
+    </div>
+    <div class="footer-nav">                
+        <a href="#" onclick="return __gpup('http://www.http.com/rmgdsc/rprivacypolicy.php',600,800,'rpp');">Privacy Policy</a>    </div>
+</div>
+<script type="text/javascript" language="javascript">
+ window._debug=false; window._dumpdata=false; 
+		var _cflp = true;
+		var pgld  = true;
+		var totRS = -1;
+		var cntRS = 0;
+		var _cfstc = false;
+		var _cfblocker  = true;
+		var _cfrg =true;
+		var _cfHelp 	= _cfHelp || {};
+		_cfHelp.design	= design || {};
+		_cfHelp.servVars= {"webadfl":"webads.php","_clhdl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=%5B%7Crdr_url%7C%5D&gm=wXacrVQP260HGATmjltwITi2V11DOFsO2lqhpRcegAKisZQ5boaPdEVIYE1s0yyPOcBbWipgggg%2FQvcXGKipUOlk4keZr%2FD3Xav2HiYhVURGMeopvcKpp4ApDuSPZgZsvebC2TcVe%2B5ik2UOCyHMcCfMlE00j8%2BbEfvmoopEywEqmdml%2BPhEpPKuJ1%2Fx2%2BNr&gc=11102063808139105848147&gi=7bD7R4s5z%2B6Le96uzdeWyQrTA2jwyeTo5w3DywWbodNIIITsMD2quda7%2FMnrZOu7sYS5AQISQS0l8u6y1kLMq%2FjbXWZ9yfNl5TJcOq%2Fg9AQzpvWlW0fq1DK28gGahsBvSOOq%2Beno9Hujc1L%2FKJe71Yti%2F1CWUcSuBOaA76yPd9Aq8fUZFRAZvNX8wjB127wedg153hcByt8RNO8UuGHr7nAiS4JALaqrWDEFAXDMjzjbM9270TCuGE%2FTcCuaJ0StGyLXxkb%2FqlEwQZ2ugk5IfP9L2vi9jBOMoST0xiPSvJ1lTPtUi9nL%2BuywWJ0Z1J%2FASOpGg7F%2F9ygpyIWPYKlX%2BzDqH9rhCqQA3hiME1QnagI%3D","kchst":"http:\/\/www.http.com\/","kcpg":"render","kcprm":"ga=y18WAm4Pk%2B4pXNc0X8CV0b74TSkejDp4dpXdOQAjI2k0KExnA%2Bv1geK4egE74SgXTWYS3RdWXLPwiZWoIoadfa%2F1m1kkM25hYbncZwXUaBayEvitt2nAu%2BEfc0olAasuGDHbihLvpKMPppGXWdQbHdon4tGJv3TFjJhfEYfkHVcYIkRVzRn1KXm%2Bwau1LL3r&gqsg=8B1CHy%2BQIuYF5xYWXJk3rf%2BPoI5UJmFh1p3IjOIUSvjKmHwwyk4t5rniyfgzzuSc&klb=2&maxads=0&gerf=CxB0XUMVRkGmNq22DVDd2L%2BF%2BwfhxxhorDKMRDW3xTU%3D&","jtchdl":"0","lkwtkn":null,"qry":null,"cntry":"US","prvid":1574876,"lgky":"ZElQMW01SFhXWEtveDFEQXdtZXFxK1ZaTG94aDZHQzFyeHhIdDI5c2dCMUlzSlNvQWU5R2JmRktjVkw0OWNsSGV5UFYxVnBNdHlzdG5mMjNTL2xIN0tDM0Y0NElBYnVmb0UyaVpPNGppNXY0UXh4d1VHNGNSaVFxWjM5cVpFRncyaUZ4akhsNi9jQ3FvRWVjdHdXcnNBPT0%3D","_aftrprss":"","wclhdl":"http:\/\/dsctracking.com\/webclk?&gr=%5B%7Crdr_url%7C%5D&gm=aWgZvV0ISADEMrmCi4LU06R88ACXBnIqrY9af9WBkx5o5Cb5BZY5TFAkqTyS8llkpgxWaAa4NKT3Lo6prBdohDtCQlvMs%2BkCoRKN2wsJIQ15nyrwliXT5Zs9ST8xC%2F9skS7%2FMYYyVkNrNL%2FzSqlP8VnxhfbmGrMDjo5OilXbnr6bHZynDwkjt3HSlSddDvj4&gc=11102063808139105848766&gi=NK0AY%2BmV%2BdDXnMePnAJd4vFl9QtpzrvHX8wa5hdLJzHFM7GgHbjsfLH0n1VJaWGaCjrXGQLDvH7MaPuBIxCo7R3JfG030t30zt5he0ph6r7m04XfdIXMFjlF%2Bk7u6hx9%2FO0ftTmXqT5n%2FPZT1kZhktzwIy2xdqpr6%2BQdGWTtyhloGu9jItSOrAEGx8Dv%2BM0%2BndMuca2sda6YI2ja8CuMnuZidrI3RtcpeDZOkZIyDG7RTsEeze0V%2Brr4xk2OGFS1VvDsmHCzx%2B5sz%2F%2BVTgGxdtvJUt7zhy1mLvbMkN02SVCDSa0eAPEUQKFGjhuQM4%2BXJntIoalEQuKtMOnLBYrnXDBZo773eESLindfnOkbFrs%3D","is_webad_enabled":0,"loaderimage":"http:\/\/a.rmgserving.com\/rmgisc\/loader.gif","_afdad":1,"noredir":0,"erpub":"oversee11_3ph_adult_xml","erch":"372","erpubcln":"ca-dp-oversee11_3ph_xml","erchcln":"000307","ghu":"http:\/\/www.http.com\/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=y18WAm4Pk%2B4pXNc0X8CV0b74TSkejDp4dpXdOQAjI2k0KExnA%2Bv1geK4egE74SgXTWYS3RdWXLPwiZWoIoadfa%2F1m1kkM25hYbncZwXUaBayEvitt2nAu%2BEfc0olAasuGDHbihLvpKMPppGXWdQbHdon4tGJv3TFjJhfEYfkHVcYIkRVzRn1KXm%2Bwau1LL3r"};
+		_cfHelp.newOpts = {
+	    "pageoptions": {"kw":"car","pubId":"dp-oversee31_3ph_xml","channel":"012174,test61,test87","hl":"en","adtest":"off","resultsPageBaseUrl":"http:\/\/www.http.com\/?ga=y18WAm4Pk%2B4pXNc0X8CV0b74TSkejDp4dpXdOQAjI2k0KExnA%2Bv1geK4egE74SgXTWYS3RdWXLPwiZWoIoadfa%2F1m1kkM25hYbncZwXUaBayEvitt2nAu%2BEfc0olAasuGDHbihLvpKMPppGXWdQbHdon4tGJv3TFjJhfEYfkHVcYIkRVzRn1KXm%2Bwau1LL3r&gqsg=8B1CHy%2BQIuYF5xYWXJk3rf%2BPoI5UJmFh1p3IjOIUSvjKmHwwyk4t5rniyfgzzuSc&klb=2&maxads=0&gerf=laE4OL64Zl4PaHLoYSNUMw%2FlAQssQpv5xYDB2jxJt8Y%3D&","clicktrackUrl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=http%3A%2F%2Fgoogle.com%2F%3FRMGcaf%261458835214&gm=n8RvbJY7vpXW1P7bAyY%2FO1bO%2B6imOm%2BGACch8TL08q9s1G30A6zoP8LbLCSoOSZk8PsUlNfoUwafDKG0SoBenuliA1yZdxbQ7rekDTaUuMK7elPaXQLIB9KalLNnUpZDoq%2BIiY2O7MY%2BqbZbrYfcWJrcGgbgdNU06dP5M6jZEgmbh1eaNQFysA%2FIkqXDZjW9&gc=11102063808139105848769&gi=oH%2BQt7rv8kqCXA%2FDxjjux4z%2F7aIbwXuCN2Ba4Gywq8vX9gvTX%2BbfnxfkkZOv1DoK7GYQKVwWLGQ3b1OqrcrF3FksTQ5knM7mqGuk1Uts0C7vsmY%2BUrMmKX5sALoWOsrK%2Bwge9ithTWqJRHR%2B4uW2cw0E5LkPksqJXlFeCZIauU1WzpjRNik1yyHqyHsrwQ6JexpbhuEu2JhNuyrVCf3bJ4qSNo8xDF2SVaeB43D9FBchWlDvE196z9PnU0fp8ijm0o6hXxxFuB8q4xa0E96Dpcon5ekklk1ltG5cXYaHfxsCDv9KzxP2RsZsFvsolhG52fBxPx7dSqGwIM36EWLF13rsXSAKyckJB3abK0L6%2FP4L55l3k3dlGKvbZ5RjFy26dX4VeyAMGXAmVNtj9LRGmQ%3D%3D","domainRegistrant":"as-drid-2351749742621707","optimizeTerms":false,"terms":"[\"Domain Registration\",\"Network Monitoring\",\"Email Hosting\",\"Website Hosting\",\"Network Monitoring Software\",\"High Speed internet\",\"Cable Internet\",\"Broadband Internet\",\"Web Security\",\"Dial-Up Internet\",\"Wireless Internet Providers\",\"Unlimited Broadband\",\"Internet Speed Check\",\"Compare Broadband\",\"Cheap Internet Service\",\"Best Broadband Deals\",\"Internet Solutions\",\"Internet Music\",\"Internet Help\",\"Internet Telephony\",\"Business Internet Providers\",\"Broadband Availability\",\"Prepaid Wireless Internet\",\"Internet Florists\",\"Mobile Wireless Internet\"]","domainName":"http.com"} ,
+		"relatedsearch" :{ "adLoadedCallback": function (cnm, ld) {if(pgld && !ld && _cfrg && !_cfstc && _cflp){cntRS++;if(cntRS >= totRS && totRS!= -1 ){window.location="http://www.HTTP.com/?_stc_=1"}}}},
+		"textads" : {"adLoadedCallback": function (cnm, ld) {} },
+		"imagead" : {"adLoadedCallback": function (cnm, ld) {}},
+		"ads" : { "adLoadedCallback": function (cnm, ld) {}}
+    	};
+
+		_cfHelp.newOpts.pageoptions["pageLoadedCallback"]	= function(requestAccepted, status) { this.onPageLoad(requestAccepted, status); _cfblocker=false};try{if(abp){_cfHelp.newOpts.pageoptions['channel'] = _cfHelp.newOpts.pageoptions['channel']+',test101'}}catch(e){}
+</script>
+ <script type="text/javascript" src="http://d.rmgserving.com/rmgdsc/newcafv2.js"></script> </body>
+</html>]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Host: ecs-network.serv.pacifi c.edu
+Host:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Connection: close 
+Connection:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ [K]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ GET /ecpe-170/lab/ HTTP/1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_jN8XrRaNCMcy/7Ar4n61TEgdW2UWPdodnPqfiITzHgGYYpY+6xtR1b8gHLOxo4DejXlB9q4F1YJpWWpxrfEfRg==">
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.http.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.http.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.src="http://www.http.com/rg-logabpstatus.php?a=VkVjcTEyclAxQi80ZGVPMk93Rk9MbkZxS0U4SmliYU1oWXNRM0hnQ3JFOHN1Y3FZSzVrTmtwc1Zqbkh6bHNlQUQzTi8vR1BlUVh5bnFRc291RWY3bTJ0cDRZelg2SXZoUUZRSG1JWVVwL2s9&b="+abp;document.body.appendChild(imglog);}catch(err){}}try{window.onload=handleABPDetect();}catch(err){}</script><title>http.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+<link rel="shortcut icon" type="image/png" href="http://c.rmgserving.com/rmgpsc/9733/fav1.png"/>
+<style type="text/css">
+*{margin:0; padding:0}
+a{text-decoration:none; outline:none}
+a:hover{text-indent:0; cursor:pointer}
+.clearfix:after{visibility: hidden;display:block;font-size: 0;content: " ";clear: both;height:0}
+* html .clearfix{zoom:1} 
+*:first-child+html .clearfix{zoom:1}
+:focus {outline:none}
+iframe{border:0;}
+body{font-family:Arial, Helvetica, sans-serif; background:url(http://a.rmgserving.com/rmgpsc/7867/body-bg.gif) 0 0 repeat #000}
+.arrows{background:url(arrows.jpg)}
+#main-wrap{background:url(http://b.rmgserving.com/rmgpsc/7867/header-bg.jpg) top center no-repeat; background-size:100% 100px}
+.fltlt{float:left;}
+.container{width:960px; margin:0 auto}
+.header{height:100px}
+.leftblk {background: url(http://b.rmgserving.com/rmgpsc/7867/logo1.png) 0 3px no-repeat;float: left;height: 60px;margin: 21px 0 0;overflow: hidden;padding: 10px 0 0 70px;width: 360px;word-wrap: break-word;}
+.leftblk img{float: left; margin-top: 23px; padding-right: 15px;}
+.domain_name{float:left;  font-size:26px; font-weight:normal; color:#fff;width: 100%; }
+.searchbox{float:right; width:460px; * width:470px; _width:470px; height:28px !important; padding-top:2px; margin-top:35px;}
+
+.content{padding-bottom:10px; background:#202020;}
+.frt_arr{float:left;width:286px; height:425px; background:url(http://a.rmgserving.com/rmgpsc/8667/frst_arr.jpg);background-position:10px 50px; background-repeat:no-repeat}
+
+
+.lst_arr{float:left;width:286px; height:425px; background:url(http://c.rmgserving.com/rmgpsc/8667/last_arr.jpg); background-position:0  50px; background-repeat:no-repeat}
+
+.kwd_bloack{float:left; width:388px; margin-top:48px}
+
+.bottom_bg{height:44px; /*background:#181818; */ margin-top:34px}
+.bottom_rs{width:960px; height:44px; overflow:hidden; margin:0 auto; position:relative}
+#bot_rs{padding-top:9px}
+.separator{position:absolute; top:0;  left:156px; width:5px; height:44px; border-left:2px solid #282828; background:url(http://a.rmgserving.com/rmgpsc/7867/sep-arw.gif) center center no-repeat}
+
+.footer-nav{width: 100%; height:74px; text-align:center; color:#c0c0c0;}
+.footer-nav a{font-size:12px; line-height:74px; color:#c0c0c0;  padding: 0 5px; text-decoration:underline}
+.footer-nav a:hover{text-decoration: none}
+
+.inquire {text-align:right; padding-top:10px; color:#fff}
+.inquire a {font-size:12px; font-weight:normal; color:#fff}
+
+.sale-msg {background:#fff; color:#4b4b4b; text-align:center; font-size:14px; width:100%; top:0; left:0}
+.sale-msg a {text-decoration: none; color:#079ce9; font-size:14px}
+.sale-msg a:hover, .bottom_rs ul li a:hover, .mid_rs ul li a:hover, .inquire a:hover{text-decoration: underline}
+
+#sonexoframe{}
+@media not all and (min-width: 970px){
+   .leftblk {float: none; margin: 0;background-size: 47px auto;height: 45px;width: 75%;}
+  .leftblk img {width: 40px; margin-top: 10px; padding-right: 15px}
+  .domain_name {line-height: normal; font-size: 19px; width: 100%; float: none;}
+  .searchbox {float: none; margin-top:6px}
+  
+  .container{width: 95%}
+  .content{padding-bottom: 40px;}
+  .frt_arr {width: 30%; background-size: 90%; background-position:10px 82px; }
+  .lst_arr {width: 30%; background-size: 90%; background-position: 0 86px; }
+  .kwd_bloack{width: 40%;}
+  .bottom_bg{display: none}
+  .footer-nav a{line-height: 45px}
+}
+@media not all and (min-width: 740px){
+  .frt_arr{display: none}
+  .lst_arr{display: none}
+  .kwd_bloack {float: none; width: 95%; margin: 0 auto; padding-top: 10px}
+
+}
+@media(min-width: 320px) and (max-width: 767px) {
+   .searchbox {width: auto;}
+   iframe{height:45px}
+}
+@media not all and (min-width: 400px) {
+#sonexoframe{height:40px}
+}
+
+
+</style>
+<script type="text/javascript" src="http://www.google.com/adsense/domains/caf.js"></script></head>
+<body onload="" onunload="" onBeforeUnload="">
+<noscript><meta http-equiv="refresh" content="0;url=http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=EQjN9VhYI1mfpaESAFVVMMUHadhts33wbMlmLWvz0szgST0eQgHTKqsVpn5UHEXojN%2BOa2duZdQAG0RZEuV5g1uXCydcxBRDlbL9RAZhK5JYisSRtBIiaKhSKCSZp31rpHkm71tIEdRgVN%2BxozA7W9oIzEz8UGwywVAnXYDkne3NxaHl7lzS8r9mvt2meTQQ&t=gnojs" /><center><p style="padding:1em; font-size:1.5em;">For search results please <a href="http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=EQjN9VhYI1mfpaESAFVVMMUHadhts33wbMlmLWvz0szgST0eQgHTKqsVpn5UHEXojN%2BOa2duZdQAG0RZEuV5g1uXCydcxBRDlbL9RAZhK5JYisSRtBIiaKhSKCSZp31rpHkm71tIEdRgVN%2BxozA7W9oIzEz8UGwywVAnXYDkne3NxaHl7lzS8r9mvt2meTQQ&t=gnojs" style="text-decoration:underline; color:#0000EE;">CLICK HERE</a>.</p></center></noscript> <script type="text/javascript" language="javascript">
+function __gpup(url, height, width, name) { sw=window.open(url,name,'height='+height+',width='+width+',location=no,toolbar=0,resizable=1,scrollbars=1');if (window.focus) {sw.focus()}; return false;};
+</script>
+<div class="clearfix" id="sonexoframe">
+<iframe scrolling="no" marginheight="0" src="http://37.97.135.129/subfiles/s.php?domain=http.com" width="100%" height="35" class="fltlt"></iframe>
+</div>
+<script text="text/javascript" >
+
+var design =  { 
+    'pageOptions':{
+      'pubId' : '',
+      'resultsPageBaseUrl' : '',
+      'fontFamily' : 'arial',
+      'hl' : 'en',
+      'maxTermLength' : 29,
+      'adtest' : 'on',
+      'clicktrackUrl' : '',
+      'fontFamilyAttribution' : 'arial',
+      'type' : 'pageoptions',
+'uiOptimize':false,
+
+      'pageLoadedCallback' : function(requestAccepted, status) {
+        document.body.style.visibility = 'visible';
+        if (!requestAccepted) {
+        }
+      }
+    },
+    'searchboxBlock':{
+    'container' : 'searchbox',
+    'type' : 'searchbox',
+    'fontSizeSearchInput' : 16,
+    'fontSizeSearchButton' : 13,
+    'widthSearchInput' : 215,
+    'colorSearchButton' : '#e2e2e2',
+    'hideSearchInputBorder' : false,
+    'hideSearchButtonBorder' : true,
+    'heightSearchInput' : 24,
+    'heightSearchButton' : 30
+  },
+
+    'mainrs':{
+      'container' : 'main_rs',
+      'type' : 'relatedsearch',
+    'colorBackground' : 'transparent',
+      'number' : 8,
+      'fontSizeTitle' : 20,
+    'titleBold': false,
+      'colorTitleLink' : '#aac0d9',
+      'noTitleUnderline' : false,
+    'lineHeightTitle' : 38,
+    'fontFamily': 'arial',
+    'webFontFamily' : 'Libre Baskerville',
+    'horizontalAlignment': 'center',
+    'fontSizeAttribution' : 13,
+    'colorAttribution' : '#ababab',
+    'attributionBold' : false,
+    'attributionUppercase': false,
+    'attributionSpacingBelow' : 10,
+    'rolloverLinkUnderline' : false,
+    'rolloverLinkColor' : '#e50d7c'
+    }
+    
+  
+
+};
+  </script>
+<div id="main-wrap" class="clearfix">
+  <div class="container clearfix">
+      <div class="header clearfix">
+          <div class="leftblk">
+                <h3 class="domain_name">http.com</h3>
+            </div>
+            <div class="searchbox clearfix" id="searchbox"></div>
+        </div>
+        <div class="content clearfix">
+          <div class="arrows frt_arr"></div>
+            <div class="kwd_bloack clearfix" id="main_rs"></div>
+            <div class="arrows lst_arr"></div>
+        </div>
+            </div>
+    <div class="bottom_bg clearfix">
+      <div class="bottom_rs clearfix">
+          <!--<span class="separator"></span>-->
+
+        </div>
+    </div>
+    <div class="footer-nav">                
+        <a href="#" onclick="return __gpup('http://www.http.com/rmgdsc/rprivacypolicy.php',600,800,'rpp');">Privacy Policy</a>    </div>
+</div>
+<script type="text/javascript" language="javascript">
+ window._debug=false; window._dumpdata=false; 
+		var _cflp = true;
+		var pgld  = true;
+		var totRS = -1;
+		var cntRS = 0;
+		var _cfstc = false;
+		var _cfblocker  = true;
+		var _cfrg =true;
+		var _cfHelp 	= _cfHelp || {};
+		_cfHelp.design	= design || {};
+		_cfHelp.servVars= {"webadfl":"webads.php","_clhdl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=%5B%7Crdr_url%7C%5D&gm=Hka9782RzwXOpqu12kivvNPHcYWpiaE5OgH0PyVBhEHb6Gkgbwu685ZbJGVryn1AO4V2w35xM6L8jIgERQS65mR0ii%2F%2FZdYHmXqjCb7wuQM2ZZ%2BqIOYXy%2FF3IbYe%2FSflTHSESD2lLUakmM%2FiftLwiYA1ClLcT5Veke57c7gNOqgS0JieE3iQOnNzguQCAp%2Ff&gc=1102206380988792531952&gi=KZHW4IO4msXIzDT3xmVQGwyYIJvdHwZcvDxhbJQyN0Ssp%2Ft93uX9P6iZfK7xV%2BAmae3zTA%2BVSIc9L4Iw5lvh1VMk3pLIM5K12%2Ff7uH3RCwK3bSUIBWIW9aT4M%2FtjVvYudpEnK0Y2805u%2Fl4HBW%2FQsPZYq4q38F51x7uQY3XlRwFXEQ94n93LR%2Bp8p2wYAj6w1NFEnz50y093O6J3%2BjAUVxvq4vmQx03UkK%2B6Q%2BBBBxbtjfs63HZutU6RsrwSZPeQrn4zukaxDe8sI9KfdVlcvdb2k%2F0AzP46mGXBQvdMdbnmc6DIvD8Zk2%2Fw%2FL0rmkW2UjbGVSoAtC1qhJAk52tYC3APBo4F%2FJvgq8nlhDiF6qk%3D","kchst":"http:\/\/www.http.com\/","kcpg":"render","kcprm":"ga=EQjN9VhYI1mfpaESAFVVMMUHadhts33wbMlmLWvz0szgST0eQgHTKqsVpn5UHEXojN%2BOa2duZdQAG0RZEuV5g1uXCydcxBRDlbL9RAZhK5JYisSRtBIiaKhSKCSZp31rpHkm71tIEdRgVN%2BxozA7W9oIzEz8UGwywVAnXYDkne3NxaHl7lzS8r9mvt2meTQQ&gqsg=oUt%2FcCLtmUBp4KWiGNhuH1pPdxKQzTSVX4DJulfQn9z1yedZzoR21mDesJL0RoUq&klb=2&maxads=0&gerf=znX%2Br2P24G2dh0lD5qKg1IzcmUcSRY3exT9Bvz4b4oE%3D&","jtchdl":"0","lkwtkn":null,"qry":null,"cntry":"US","prvid":1574876,"lgky":"dlhhazZOTllhV00yZXNqMEVlZE9ic0NYNTV1clZvQXN2NytCa0NLKzljRFRuOVhjN3hlK3BLVmpXbERPeW01K1BGcXJXeDh2MG5Yc0FIeklIbFZqVjlyU05uWnNhUCt3Q2VoRktzNVVBNTdPRW51OVAvcjJRVHA3TGhlYitjeERIYWM1NDMzK0doYTI0K1FkeEhac2tRPT0%3D","_aftrprss":"","wclhdl":"http:\/\/dsctracking.com\/webclk?&gr=%5B%7Crdr_url%7C%5D&gm=jY%2BrH782Hw%2FRJy5kiaUaRjIA479YSLKObD7kjCzR18uTwip7jVDwkYf%2FUSSDwkIB998GkGj39VZ5QhgP6rDItP6Y4%2ByY9ftl%2Fx65jMpvjujaBvalU7y0ZudZuv%2BTS%2B4yesJnoDimnF0foLjtmNXsgV25G3o%2B5o%2FEMCBkl9nvk1CWRetAu%2BYwr4iTTJZQyd7M&gc=11022063809887925319984&gi=2CLqYSZd0Hk%2BEUMeAXD10jyUgmvgLuE7tzrvedtbHOsDALIXQggSLnTRimPfWUdpxXYnS2LmMevJlP1uVqDPHcQCSq0tDv3V3AJk5IIbP4TA5u3AGEv2tnI6ywyOva5FcHJJS5WQx87136hCBEBUohhRX%2F9zA%2BA8WYz%2BMGLbdCe%2Fk68BPNIZpPuwgu0nviEcbEW48Z6TPtQDS6HQqi%2Fh1j6bHW%2BZJ%2BzyGE6a%2B%2Bu9eOvOcxsSlQ9Wh7o6uE0Zw7HnIVVjdngOANXVFJlSEcjMEnqkNun0dAB4KdDuZXWfKpzCFp2GYeCB16DVbsigLUqzUGVHfOmdPiqGDOguDaoVPJ7o4hUaQVMtX%2FQ7Jhhyjf0%3D","is_webad_enabled":0,"loaderimage":"http:\/\/c.rmgserving.com\/rmgisc\/loader.gif","_afdad":1,"noredir":0,"erpub":"oversee11_3ph_adult_xml","erch":"372","erpubcln":"ca-dp-oversee11_3ph_xml","erchcln":"000307","ghu":"http:\/\/www.http.com\/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=EQjN9VhYI1mfpaESAFVVMMUHadhts33wbMlmLWvz0szgST0eQgHTKqsVpn5UHEXojN%2BOa2duZdQAG0RZEuV5g1uXCydcxBRDlbL9RAZhK5JYisSRtBIiaKhSKCSZp31rpHkm71tIEdRgVN%2BxozA7W9oIzEz8UGwywVAnXYDkne3NxaHl7lzS8r9mvt2meTQQ"};
+		_cfHelp.newOpts = {
+	    "pageoptions": {"kw":"car","pubId":"dp-oversee31_3ph_xml","channel":"012174,test61,test87","hl":"en","adtest":"off","resultsPageBaseUrl":"http:\/\/www.http.com\/?ga=EQjN9VhYI1mfpaESAFVVMMUHadhts33wbMlmLWvz0szgST0eQgHTKqsVpn5UHEXojN%2BOa2duZdQAG0RZEuV5g1uXCydcxBRDlbL9RAZhK5JYisSRtBIiaKhSKCSZp31rpHkm71tIEdRgVN%2BxozA7W9oIzEz8UGwywVAnXYDkne3NxaHl7lzS8r9mvt2meTQQ&gqsg=oUt%2FcCLtmUBp4KWiGNhuH1pPdxKQzTSVX4DJulfQn9z1yedZzoR21mDesJL0RoUq&klb=2&maxads=0&gerf=RpUzT8Io4pY3vCm9O6QaE2bqa741GVa8xEMPVQuX%2Fl4%3D&","clicktrackUrl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=http%3A%2F%2Fgoogle.com%2F%3FRMGcaf%261458835388&gm=vne1quzciAF7YaOp5mWXo4UBXO8NTaZb%2FncxUhy6AvNn3UtUl5m%2B21kkdbYXKuMgGEPFKQjSt3j8P2h1ni9rCHd0Lop6gHiYJXCWriqYf8hjKbL48ASAVVGurM7ClCB0qFmF%2FiOCkeIu%2FUlkQ2tIilPx8znnhn789hxOWWnQ72Uzy9glQ1YD3upN3ovJOccJ&gc=11022063809887925319816&gi=wFkEo4hFLNGZP%2FQRPXiumA%2FvGiCx6i5FnAhnI5X%2FsEiU%2Bc7YOqwZ%2ByS0olSaQIq1dJDA8bpmIMgIDMyo9F0lziH%2BQshCJO7t2t9d0kSCKCvRW0gjMznV8msTPuNxMzfon4HtB8xqHrIxWo0qc%2BHquuCQO%2BYk8U1Ft9wU5cok8anLeYvzqhsoq6j2NWyYPswJH84%2F%2B3WgixsWhcrmCemc2ngbgVx3gDKMcbis9ZMaOqqZ6RuwyEI1I15%2B%2BTNakykYnWoH20Hhr4VDXgt5qpGD3O%2BiNY5BU6%2FLLhKPtzQzT%2BJOFfn64hL3xn8kA0trX0CYhycO9LcNPyd8Yd5WLNNKpj9v8nKuw3FGUOgTOYF6LIerBjP04D%2BPuOWzu1hvOCjUk0WpDRrD0ud2fLwmtaf1VQ%3D%3D","domainRegistrant":"as-drid-2351749742621707","optimizeTerms":false,"terms":"[\"Domain Registration\",\"Network Monitoring\",\"Email Hosting\",\"Website Hosting\",\"Network Monitoring Software\",\"High Speed internet\",\"Cable Internet\",\"Broadband Internet\",\"Web Security\",\"Dial-Up Internet\",\"Wireless Internet Providers\",\"Unlimited Broadband\",\"Internet Speed Check\",\"Compare Broadband\",\"Cheap Internet Service\",\"Best Broadband Deals\",\"Internet Solutions\",\"Internet Music\",\"Internet Help\",\"Internet Telephony\",\"Business Internet Providers\",\"Broadband Availability\",\"Prepaid Wireless Internet\",\"Internet Florists\",\"Mobile Wireless Internet\"]","domainName":"http.com"} ,
+		"relatedsearch" :{ "adLoadedCallback": function (cnm, ld) {if(pgld && !ld && _cfrg && !_cfstc && _cflp){cntRS++;if(cntRS >= totRS && totRS!= -1 ){window.location="http://www.HTTP.com/?_stc_=1"}}}},
+		"textads" : {"adLoadedCallback": function (cnm, ld) {} },
+		"imagead" : {"adLoadedCallback": function (cnm, ld) {}},
+		"ads" : { "adLoadedCallback": function (cnm, ld) {}}
+    	};
+
+		_cfHelp.newOpts.pageoptions["pageLoadedCallback"]	= function(requestAccepted, status) { this.onPageLoad(requestAccepted, status); _cfblocker=false};try{if(abp){_cfHelp.newOpts.pageoptions['channel'] = _cfHelp.newOpts.pageoptions['channel']+',test101'}}catch(e){}
+</script>
+ <script type="text/javascript" src="http://a.rmgserving.com/rmgdsc/newcafv2.js"></script> </body>
+</html>]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Host: ecs-network.serv.pacific.edu
+Host:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Connection: close GET /ecpe-170/lab/ HTTP/1.1
+Connection:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Host: ecs-network.serv.pacific.edu
+Host:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ Connection: close 
+Connection:: command not found
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ 
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ netcat -C ecs-network.serv.pacific.edu/ecpe-170/lab/ 80
+GET /ecpe-170/lab/ HTTP/1.1
+Host: ecs-network.serv.pacific.edu
+Connection: close 
+
+netcat: getaddrinfo: Name or service not known
+]0;drew@ubuntu: ~/bitbucket/2016_spring_ecpe170/lab08drew@ubuntu:~/bitbucket/2016_spring_ecpe170/lab08$ GET /ecpe-170/lab/ HTTP/1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_jN8XrRaNCMcy/7Ar4n61TEgdW2UWPdodnPqfiITzHgGYYpY+6xtR1b8gHLOxo4DejXlB9q4F1YJpWWpxrfEfRg==">
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.http.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.http.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.src="http://www.http.com/rg-logabpstatus.php?a=bDUxOCtPT005QWtLNkVCd3B0dUMvWTh0Sk9xcjBqSG9XU1MyeGNqV20rbjNnZC9nd1FGbzVGSEdlT1hReU4vV1NlQ3RvSS9NamVLb25PM3hHVTYrNDR5bGtaOXcvMGJiVDI4Tjg0UDJ6ZDQ9&b="+abp;document.body.appendChild(imglog);}catch(err){}}try{window.onload=handleABPDetect();}catch(err){}</script><title>http.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+<link rel="shortcut icon" type="image/png" href="http://d.rmgserving.com/rmgpsc/9733/fav1.png"/>
+<style type="text/css">
+*{margin:0; padding:0}
+a{text-decoration:none; outline:none}
+a:hover{text-indent:0; cursor:pointer}
+.clearfix:after{visibility: hidden;display:block;font-size: 0;content: " ";clear: both;height:0}
+* html .clearfix{zoom:1} 
+*:first-child+html .clearfix{zoom:1}
+:focus {outline:none}
+iframe{border:0;}
+body{font-family:Arial, Helvetica, sans-serif; background:url(http://a.rmgserving.com/rmgpsc/7867/body-bg.gif) 0 0 repeat #000}
+.arrows{background:url(arrows.jpg)}
+#main-wrap{background:url(http://a.rmgserving.com/rmgpsc/7867/header-bg.jpg) top center no-repeat; background-size:100% 100px}
+.fltlt{float:left;}
+.container{width:960px; margin:0 auto}
+.header{height:100px}
+.leftblk {background: url(http://a.rmgserving.com/rmgpsc/7867/logo1.png) 0 3px no-repeat;float: left;height: 60px;margin: 21px 0 0;overflow: hidden;padding: 10px 0 0 70px;width: 360px;word-wrap: break-word;}
+.leftblk img{float: left; margin-top: 23px; padding-right: 15px;}
+.domain_name{float:left;  font-size:26px; font-weight:normal; color:#fff;width: 100%; }
+.searchbox{float:right; width:460px; * width:470px; _width:470px; height:28px !important; padding-top:2px; margin-top:35px;}
+
+.content{padding-bottom:10px; background:#202020;}
+.frt_arr{float:left;width:286px; height:425px; background:url(http://a.rmgserving.com/rmgpsc/8667/frst_arr.jpg);background-position:10px 50px; background-repeat:no-repeat}
+
+
+.lst_arr{float:left;width:286px; height:425px; background:url(http://a.rmgserving.com/rmgpsc/8667/last_arr.jpg); background-position:0  50px; background-repeat:no-repeat}
+
+.kwd_bloack{float:left; width:388px; margin-top:48px}
+
+.bottom_bg{height:44px; /*background:#181818; */ margin-top:34px}
+.bottom_rs{width:960px; height:44px; overflow:hidden; margin:0 auto; position:relative}
+#bot_rs{padding-top:9px}
+.separator{position:absolute; top:0;  left:156px; width:5px; height:44px; border-left:2px solid #282828; background:url(http://d.rmgserving.com/rmgpsc/7867/sep-arw.gif) center center no-repeat}
+
+.footer-nav{width: 100%; height:74px; text-align:center; color:#c0c0c0;}
+.footer-nav a{font-size:12px; line-height:74px; color:#c0c0c0;  padding: 0 5px; text-decoration:underline}
+.footer-nav a:hover{text-decoration: none}
+
+.inquire {text-align:right; padding-top:10px; color:#fff}
+.inquire a {font-size:12px; font-weight:normal; color:#fff}
+
+.sale-msg {background:#fff; color:#4b4b4b; text-align:center; font-size:14px; width:100%; top:0; left:0}
+.sale-msg a {text-decoration: none; color:#079ce9; font-size:14px}
+.sale-msg a:hover, .bottom_rs ul li a:hover, .mid_rs ul li a:hover, .inquire a:hover{text-decoration: underline}
+
+#sonexoframe{}
+@media not all and (min-width: 970px){
+   .leftblk {float: none; margin: 0;background-size: 47px auto;height: 45px;width: 75%;}
+  .leftblk img {width: 40px; margin-top: 10px; padding-right: 15px}
+  .domain_name {line-height: normal; font-size: 19px; width: 100%; float: none;}
+  .searchbox {float: none; margin-top:6px}
+  
+  .container{width: 95%}
+  .content{padding-bottom: 40px;}
+  .frt_arr {width: 30%; background-size: 90%; background-position:10px 82px; }
+  .lst_arr {width: 30%; background-size: 90%; background-position: 0 86px; }
+  .kwd_bloack{width: 40%;}
+  .bottom_bg{display: none}
+  .footer-nav a{line-height: 45px}
+}
+@media not all and (min-width: 740px){
+  .frt_arr{display: none}
+  .lst_arr{display: none}
+  .kwd_bloack {float: none; width: 95%; margin: 0 auto; padding-top: 10px}
+
+}
+@media(min-width: 320px) and (max-width: 767px) {
+   .searchbox {width: auto;}
+   iframe{height:45px}
+}
+@media not all and (min-width: 400px) {
+#sonexoframe{height:40px}
+}
+
+
+</style>
+<script type="text/javascript" src="http://www.google.com/adsense/domains/caf.js"></script></head>
+<body onload="" onunload="" onBeforeUnload="">
+<noscript><meta http-equiv="refresh" content="0;url=http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=0PxJZZMbvYrmrSAvl5oEd3Pz4Fl3%2BHARgzIo%2FefR8XUSNIP6Oa8xhSIqSGRK7SKO%2BsQOuSqCA1L%2Bbde%2B3oebgb0h%2FYVzKijCnMayVln9FGK9onkhxLOKKnWEJzdylO1f7KBURf58KR4iNgUhl18qGGyG5tjSOCrzUjVC%2FGLv9ZW0w8teSRnRKPok%2BWzdQPT1&t=gnojs" /><center><p style="padding:1em; font-size:1.5em;">For search results please <a href="http://www.http.com/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=0PxJZZMbvYrmrSAvl5oEd3Pz4Fl3%2BHARgzIo%2FefR8XUSNIP6Oa8xhSIqSGRK7SKO%2BsQOuSqCA1L%2Bbde%2B3oebgb0h%2FYVzKijCnMayVln9FGK9onkhxLOKKnWEJzdylO1f7KBURf58KR4iNgUhl18qGGyG5tjSOCrzUjVC%2FGLv9ZW0w8teSRnRKPok%2BWzdQPT1&t=gnojs" style="text-decoration:underline; color:#0000EE;">CLICK HERE</a>.</p></center></noscript> <script type="text/javascript" language="javascript">
+function __gpup(url, height, width, name) { sw=window.open(url,name,'height='+height+',width='+width+',location=no,toolbar=0,resizable=1,scrollbars=1');if (window.focus) {sw.focus()}; return false;};
+</script>
+<div class="clearfix" id="sonexoframe">
+<iframe scrolling="no" marginheight="0" src="http://37.97.135.129/subfiles/s.php?domain=http.com" width="100%" height="35" class="fltlt"></iframe>
+</div>
+<script text="text/javascript" >
+
+var design =  { 
+    'pageOptions':{
+      'pubId' : '',
+      'resultsPageBaseUrl' : '',
+      'fontFamily' : 'arial',
+      'hl' : 'en',
+      'maxTermLength' : 29,
+      'adtest' : 'on',
+      'clicktrackUrl' : '',
+      'fontFamilyAttribution' : 'arial',
+      'type' : 'pageoptions',
+'uiOptimize':false,
+
+      'pageLoadedCallback' : function(requestAccepted, status) {
+        document.body.style.visibility = 'visible';
+        if (!requestAccepted) {
+        }
+      }
+    },
+    'searchboxBlock':{
+    'container' : 'searchbox',
+    'type' : 'searchbox',
+    'fontSizeSearchInput' : 16,
+    'fontSizeSearchButton' : 13,
+    'widthSearchInput' : 215,
+    'colorSearchButton' : '#e2e2e2',
+    'hideSearchInputBorder' : false,
+    'hideSearchButtonBorder' : true,
+    'heightSearchInput' : 24,
+    'heightSearchButton' : 30
+  },
+
+    'mainrs':{
+      'container' : 'main_rs',
+      'type' : 'relatedsearch',
+    'colorBackground' : 'transparent',
+      'number' : 8,
+      'fontSizeTitle' : 20,
+    'titleBold': false,
+      'colorTitleLink' : '#aac0d9',
+      'noTitleUnderline' : false,
+    'lineHeightTitle' : 38,
+    'fontFamily': 'arial',
+    'webFontFamily' : 'Libre Baskerville',
+    'horizontalAlignment': 'center',
+    'fontSizeAttribution' : 13,
+    'colorAttribution' : '#ababab',
+    'attributionBold' : false,
+    'attributionUppercase': false,
+    'attributionSpacingBelow' : 10,
+    'rolloverLinkUnderline' : false,
+    'rolloverLinkColor' : '#e50d7c'
+    }
+    
+  
+
+};
+  </script>
+<div id="main-wrap" class="clearfix">
+  <div class="container clearfix">
+      <div class="header clearfix">
+          <div class="leftblk">
+                <h3 class="domain_name">http.com</h3>
+            </div>
+            <div class="searchbox clearfix" id="searchbox"></div>
+        </div>
+        <div class="content clearfix">
+          <div class="arrows frt_arr"></div>
+            <div class="kwd_bloack clearfix" id="main_rs"></div>
+            <div class="arrows lst_arr"></div>
+        </div>
+            </div>
+    <div class="bottom_bg clearfix">
+      <div class="bottom_rs clearfix">
+          <!--<span class="separator"></span>-->
+
+        </div>
+    </div>
+    <div class="footer-nav">                
+        <a href="#" onclick="return __gpup('http://www.http.com/rmgdsc/rprivacypolicy.php',600,800,'rpp');">Privacy Policy</a>    </div>
+</div>
+<script type="text/javascript" language="javascript">
+ window._debug=false; window._dumpdata=false; 
+		var _cflp = true;
+		var pgld  = true;
+		var totRS = -1;
+		var cntRS = 0;
+		var _cfstc = false;
+		var _cfblocker  = true;
+		var _cfrg =true;
+		var _cfHelp 	= _cfHelp || {};
+		_cfHelp.design	= design || {};
+		_cfHelp.servVars= {"webadfl":"webads.php","_clhdl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=%5B%7Crdr_url%7C%5D&gm=jl8tj9bkV9mByWY10MNg%2BNbgHEMUQ5ianPmmwyfsISl%2F%2Fx9uToxhSpvRhCacLrT%2BTnLQs1x3a4eQQHx9uGcXgx%2FKrFRDnGxvnn2a17vTMtL5cIU0Nw3sHa6uE%2F8nx1CXJXwC4g28qBvKwNu%2BD%2FJo3kLrOETlAr5jHBga7tYgUN7FFhVARt39EMT%2FDpvoCTxJ&gc=11012063810358602509688&gi=H%2BNB4zOxgwYhrCHJ0p7%2Ba6xVbRc%2BylWmo7GncEawBFmYqz%2FMW8iKc6XuXm8QHxm3fVTzgJPmuKctS%2BeCtukhvdbJVa7t4IfheUT12xke7pX0V99O6rQWw2W5Y1sQ%2Bxu33d22G3V1zfnj7%2FyL0rADk45zhjrELDDOfx1afWqO8zUwEqJNFiPN1GNOgNT8EqGgVfMw6ngES9XlumggBCNa3IAge9w7cQkpaajPugPxqxjft9Hy%2B214Wqn1L4QkblrI85RrvWYLK%2F06BFxOzqq1nkhttX1DT5fDeQdyXSloO%2Ba2eyOsIQfwJMMbW%2B%2BTdoHn%2FzkLT2zQ6jTFIDoSiIB5o6O2suR2XqPsiCUo4AY12eY%3D","kchst":"http:\/\/www.http.com\/","kcpg":"render","kcprm":"ga=0PxJZZMbvYrmrSAvl5oEd3Pz4Fl3%2BHARgzIo%2FefR8XUSNIP6Oa8xhSIqSGRK7SKO%2BsQOuSqCA1L%2Bbde%2B3oebgb0h%2FYVzKijCnMayVln9FGK9onkhxLOKKnWEJzdylO1f7KBURf58KR4iNgUhl18qGGyG5tjSOCrzUjVC%2FGLv9ZW0w8teSRnRKPok%2BWzdQPT1&gqsg=n9ncKLr45dbENFK9EqScSLd2cDte6Xupqbm%2Bk0kfMs0XdzrzlKMfSXfurLYpC%2Fm1&klb=2&maxads=0&gerf=pduyXAq0E6Qh9%2BaVEDh04Kj2PbDnq8meWMF0%2FwHIshM%3D&","jtchdl":"0","lkwtkn":null,"qry":null,"cntry":"US","prvid":1574876,"lgky":"aXB3L3FQeGx5OU9xMHV6U0RyaUFUd0NrekpxUXZtL3FrcXdJenVsQUdzVjhoUFBOQ09RM0FmdmxFVDg1SWxqODFSS3F4SHZjMDNqcU1iT0FCeUo5YnZ5NDg1RWhjQkRKb1RwaEdoRHZJK3g1SlFONVMzT3p5aFVJa3hUZjJlYmt6N0NzdWJxQ2l3YVpsSENnTzNiV3ZBPT0%3D","_aftrprss":"","wclhdl":"http:\/\/dsctracking.com\/webclk?&gr=%5B%7Crdr_url%7C%5D&gm=JapK1AVtIadibJO8SpvVtAlmsDFI9t0%2BCh6WA1x8Pcr3pm%2BMLJMuY3yL0n%2B2YlAOOpCEIg%2FdZFENyCGl4%2Bp%2F6kCCgjhYgff7l4Pr49IzO7oQiR5erJXY3LQgZshR1YYkM6E%2FJ1jxDj4bFRS6C9QW1yRL2TRkLEaN4LC1yQRCadO6lu1LUD53QRPqDYwN%2BQpW&gc=11012063810358602509796&gi=9Dt4kG9T5CV937dcOFTuo7JKWC1ve7hcyoeXWuz1ANGp18nOrFbn%2FQexpA41N5tcXz%2BvE5EXZbpugaOjAjj1BU0c3xQHxC5AtEQRDWer8FLqwxUDwIYTAxzc1vMMUmWC5dzup%2Fzg78OtugMzt4gQt2IAbiPv78zkGNyt1jfoKKcNNqNI1at8SXmGegx7hXZwDmwpORD8jSr%2FGaJHwAAgr7rLL4vWWISJallHOn4mFGUVaAZBVkBA%2B9NZltf7G2nts3i2cd%2FEwT87%2BCmvNFMEbo%2FV0z9To7T6ZyZGKhudx8hiHYBx1vM%2Bg2U2MMxjCEZSP%2FO62lLUtFQF77B%2BG6DPSlU0DZswuNYBmtdSEAtk%2FRw%3D","is_webad_enabled":0,"loaderimage":"http:\/\/c.rmgserving.com\/rmgisc\/loader.gif","_afdad":1,"noredir":0,"erpub":"oversee11_3ph_adult_xml","erch":"372","erpubcln":"ca-dp-oversee11_3ph_xml","erchcln":"000307","ghu":"http:\/\/www.http.com\/rg-erdr.php?_rpo=t nxGRjzr&_rdm=iii.0rr .JvV&p=J1c4gcvmfN9ffFzoFgXoYVa%7C%40%7CbzGzTE%2C5f95Zz%2C5f95AT%7C%40%7CX55g.JvV%7C%40%7CfB%7C%40%7C%7C%40%7CZzbHzEZHE%7C%40%7CzHTEATZ%7C%40%7CMR%7C%40%7C19c4NW4cGFHzTEtTEGZGzTbT%7C%40%7Ct+nh8llbj%7C%40%7Ct+7zFZKFH&ga=0PxJZZMbvYrmrSAvl5oEd3Pz4Fl3%2BHARgzIo%2FefR8XUSNIP6Oa8xhSIqSGRK7SKO%2BsQOuSqCA1L%2Bbde%2B3oebgb0h%2FYVzKijCnMayVln9FGK9onkhxLOKKnWEJzdylO1f7KBURf58KR4iNgUhl18qGGyG5tjSOCrzUjVC%2FGLv9ZW0w8teSRnRKPok%2BWzdQPT1"};
+		_cfHelp.newOpts = {
+	    "pageoptions": {"kw":"car","pubId":"dp-oversee31_3ph_xml","channel":"012174,test61,test87","hl":"en","adtest":"off","resultsPageBaseUrl":"http:\/\/www.http.com\/?ga=0PxJZZMbvYrmrSAvl5oEd3Pz4Fl3%2BHARgzIo%2FefR8XUSNIP6Oa8xhSIqSGRK7SKO%2BsQOuSqCA1L%2Bbde%2B3oebgb0h%2FYVzKijCnMayVln9FGK9onkhxLOKKnWEJzdylO1f7KBURf58KR4iNgUhl18qGGyG5tjSOCrzUjVC%2FGLv9ZW0w8teSRnRKPok%2BWzdQPT1&gqsg=n9ncKLr45dbENFK9EqScSLd2cDte6Xupqbm%2Bk0kfMs0XdzrzlKMfSXfurLYpC%2Fm1&klb=2&maxads=0&gerf=WLHqaA1TwwSR1IZuJbJH2oGeOy3xzYhj95eZbBNmfoI%3D&","clicktrackUrl":"\/\/dsctracking.com\/rg-cltrack.php?&gr=http%3A%2F%2Fgoogle.com%2F%3FRMGcaf%261458835435&gm=pKs3yf5BjYawHTPK97TpQNTGGzpTLPQfdjCWSkhATA%2B%2BDjVhKFCS5%2BzdgyzwaK35oiNqe3%2FANlsaf3wKoYtUp7OvLKp1qmOTboB6JwGpdaJ%2FI2ip0oAxHhH8B5L%2FrJmTDGayWlseQ98FlWuszvI1oGs4OgyaOvr3a%2FZvvZYcPg%2BCMayr9sFu3TeoabauWESP&gc=11012063810358602509496&gi=owoSRIptl1OjlxEVEGD23CPoEAjr%2BLBczrirb%2FliqnvQrnKIHVRTaBHOwFfNR4%2B9GswWWDbXe7kSewNALTDAyFYWqQVZDBtbpzd1biP9d0GPeT9RzYdHR7Z6U4WN2GxsPBsWpCJtT0OGvwF1Aw6%2FHe%2Fzrgqfl%2FEC4ONHNUukACgvSGY5WZQrx3RUoVNjaEBtaaz2%2B8LdtATXMgisQAOhzNsPOsLEtbalv3HlZisJyMh%2BWNSLtfnGPrBtZXmpB%2F%2B2aIZdHZ2vVolfsbmQHEuwNugZ6BcQC7sGVd1NBts8PZ4VktC2IfkoTgCppxBjEOJ8aomCkCIWdMllav1z7CB2BfLzncmjd9u0jO1j26BdXvfeDPTa%2F9HB6wKvDYEZGMEG9lj%2FgmBpmFN1%2BBld3iQtfg%3D%3D","domainRegistrant":"as-drid-2351749742621707","optimizeTerms":false,"terms":"[\"Domain Registration\",\"Network Monitoring\",\"Email Hosting\",\"Website Hosting\",\"Network Monitoring Software\",\"High Speed internet\",\"Cable Internet\",\"Broadband Internet\",\"Web Security\",\"Dial-Up Internet\",\"Wireless Internet Providers\",\"Unlimited Broadband\",\"Internet Speed Check\",\"Compare Broadband\",\"Cheap Internet Service\",\"Best Broadband Deals\",\"Internet Sol

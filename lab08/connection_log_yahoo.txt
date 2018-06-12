@@ -1,0 +1,33 @@
+Script started on Wed 23 Mar 2016 09:08:32 PM PDT
+GET /about/ HTTP/1.1
+Host: www.yahoo.com
+Connection: close 
+
+HTTP/1.1 301 Redirect
+Date: Thu, 24 Mar 2016 04:08:47 GMT
+Via: https/1.1 ir4.fp.gq1.yahoo.com (ApacheTrafficServer)
+Server: ATS
+Location: https://www.yahoo.com/about/
+Content-Type: text/html
+Content-Language: en
+Cache-Control: no-store, no-cache
+Connection: keep-alive
+Y-Trace: BAEAQAAAAAD0GPe3KHbZVwAAAAAAAAAA26yIh8nG6uQAAAAAAAAAAAAFLsOaaXciAAUuw5ppfX1UNowgAAAAAA--
+Content-Length: 310
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://www.yahoo.com/about/".
+</B></FONT>
+<HR>
+</BODY>
+
+Script done on Wed 23 Mar 2016 09:08:39 PM PDT
